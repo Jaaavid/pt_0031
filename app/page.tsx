@@ -241,7 +241,7 @@ export default function Home() {
 
           <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center mt-6">
             <p className="text-gray-400 text-xs sm:text-sm">
-              © 2026 casinotopchoices.org. For educational purposes only. 18+ only. Please gamble responsibly.
+              © 2026 casinofunzone1.com. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
           </div>
         </div>

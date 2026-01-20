@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Introduction</h2>
               <p>
-                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website casinotopchoices.org 
+                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website casinofunzone1.com
                 (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard 
                 your information when you visit our website.
               </p>
@@ -189,7 +189,7 @@ export default function PrivacyPolicy() {
               </p>
               <div className="mt-3 bg-slate-800/50 rounded p-4 border border-purple-500/20">
                 <p className="font-semibold text-white">Casino Top Choices</p>
-                <p>Website: <a href="https://www.casinotopchoices.org" className="text-purple-400 hover:text-purple-300 underline">casinotopchoices.org</a></p>
+                <p>Website: <a href="https://www.casinofunzone1.com" className="text-purple-400 hover:text-purple-300 underline">casinofunzone1.com</a></p>
                 <p>Email: Please use our contact form on the website</p>
               </div>
             </section>
@@ -204,7 +204,7 @@ export default function PrivacyPolicy() {
           </div>
           <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center">
             <p className="text-gray-400 text-xs sm:text-sm">
-              © 2026 casinotopchoices.org. For educational purposes only. 18+ only. Please gamble responsibly.
+              © 2026 casinofunzone1.com. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
             <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
               <a href="/" className="text-purple-400 hover:text-purple-300">Home</a>
