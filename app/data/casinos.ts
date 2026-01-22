@@ -40,14 +40,14 @@ const casinosRawData: CasinoRawData[] = [
   {
     name: "VegasHero",
     logo: "/VegasHero.png",
-    bonus: "300% up to €500 + 300 FS",
+    bonus: "300% up to €500 + 300 FREE SPINS",
     url: "https://any-site1.com/sF24tnhr",
     isMobile: true
   },
   {
     name: "Agent No Wager",
     logo: "/agentnowager.svg",
-    bonus: "Up to 90 FS + 45% Without Wager!",
+    bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
     url: "https://any-site1.com/ht2pbwVK",
     isMobile: true
   },

@@ -61,9 +61,10 @@ export default function MobileCasinoModal({ mobileCasinos }: MobileCasinoModalPr
 
         {/* Content */}
         <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
-          <div className="space-y-3 sm:space-y-4 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 max-w-6xl mx-auto">
             {updatedCasinos.map((casino, index) => (
-              <CasinoCard 
+              <CasinoCard
+                gclid={true}
                 key={casino.id} 
                 casino={casino} 
                 badge={index === 0 ? 'gold' : index === 1 ? 'silver' : index === 2 ? 'bronze' : undefined}

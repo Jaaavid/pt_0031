@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         {/* Casino Card */}
-        <div className="space-y-3 sm:space-y-4 lg:space-y-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 max-w-6xl mx-auto">
           {regularCasinos.map((casino) => (
             <CasinoCard key={casino.id} casino={casino} />
           ))}
@@ -128,7 +128,7 @@ export default function Home() {
               <ul className="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
                 <li><a href="#" className="hover:text-purple-400">Home</a></li>
                 <li><a href="#casinos" className="hover:text-purple-400">Casinos</a></li>
-                <li><a href="#guide" className="hover:text-purple-400">Guide</a></li>
+                {/*<li><a href="#guide" className="hover:text-purple-400">Guide</a></li>*/}
               </ul>
             </div>
             <div>

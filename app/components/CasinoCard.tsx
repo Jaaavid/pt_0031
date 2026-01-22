@@ -1,7 +1,7 @@
 'use client';
 
 import { Casino } from '../data/casinos';
-import { Star, ArrowRight } from 'lucide-react';
+import { Star, ArrowRight, Check } from 'lucide-react';
 import { logos } from './CasinoLogos';
 import Image from 'next/image';
 import { track } from '@vercel/analytics';
@@ -9,9 +9,10 @@ import { track } from '@vercel/analytics';
 interface CasinoCardProps {
   casino: Casino;
   badge?: 'gold' | 'silver' | 'bronze';
+  gclid?: boolean;
 }
 
-export default function CasinoCard({ casino, badge }: CasinoCardProps) {
+export default function CasinoCard({ casino, badge, gclid }: CasinoCardProps) {
   // Track click on mobile casino brands
   const handleCasinoClick = () => {
     if (casino.isMobile) {
@@ -82,7 +83,7 @@ export default function CasinoCard({ casino, badge }: CasinoCardProps) {
             ? 'bg-purple-500 border-purple-300 text-white' 
             : 'bg-yellow-400 border-yellow-300 text-black'
         }`}>
-          {badge === 'gold' ? "Fast Withdrawal" : badge === 'silver' ? 'Most Popular' : 'No Wagering'}
+          {badge === 'gold' ? "Most Popular" : badge === 'silver' ? 'Fast Withdrawal' : 'No Wagering'}
         </div>
       )}
 
@@ -106,6 +107,7 @@ export default function CasinoCard({ casino, badge }: CasinoCardProps) {
             </div>
           </div>
         </div>
+
       </div>
 
       {/* Bonus Offer - Centered */}
@@ -143,6 +145,16 @@ export default function CasinoCard({ casino, badge }: CasinoCardProps) {
         Claim Bonus
         <ArrowRight className="w-5 h-5" />
       </a>
+      {gclid &&  <div className="mt-5 flex items-center justify-center gap-6 text-white/80 text-sm font-semibold">
+        <span className="flex items-center gap-2">
+          <Check className="w-4 h-4 text-emerald-400" />
+          Instant Deposits
+        </span>
+          <span className="flex items-center gap-2">
+          <Check className="w-4 h-4 text-emerald-400" />
+          Secure & Licensed
+        </span>
+      </div>}
     </div>
   );
 }

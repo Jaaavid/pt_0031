@@ -14,7 +14,7 @@ export default function Footer() {
             <ul className="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
               <li><a href="#" className="hover:text-purple-400">Home</a></li>
               <li><a href="#casinos" className="hover:text-purple-400">Casinos</a></li>
-              <li><a href="#guide" className="hover:text-purple-400">Guide</a></li>
+              {/*<li><a href="#guide" className="hover:text-purple-400">Guide</a></li>*/}
             </ul>
           </div>
           <div>
