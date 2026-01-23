@@ -55,7 +55,7 @@ export default function CasinoCard({ casino, badge, gclid }: CasinoCardProps) {
           alt={`${casino.name} Casino`} 
           width={180} 
           height={80} 
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain logo-pulse"
         />
       );
     }
