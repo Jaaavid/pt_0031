@@ -30,34 +30,34 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 ///
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "350% up to £680 + 200 FREE SPINS",
-    url: "https://any-site1.com/hhbHzRbC",
-    isMobile: true
-  },
-  {
-    name: "RollySpin",
-    logo: "/RollySpin.svg",
-    bonus: "200% up to 1,000£ + 50 FREE SPINS",
-    url: "https://any-site1.com/znYjBPcw",
-    isMobile: true
-  },
-  {
-    name: "CasinoPrestige",
-    logo: "/prestige.svg",
-    bonus: "100% Bonus up to £750 + 100 Free Spins + 3 Wheel of Luck Spins",
-    url: "https://any-site1.com/yZ4VnswQ",
-    isMobile:true
-  },
-  {
-    name: "DaffSpin",
-    logo: "/daffspin.png",
-    bonus: "HIGHROLLER BONUS +50% Up to 500£",
-    url: "https://any-site1.com/zGmF9Yvq",
-    isMobile: true
-  },
+  // {
+  //   name: "Lizaro",
+  //   logo: "/lizaro.png",
+  //   bonus: "350% up to £680 + 200 FREE SPINS",
+  //   url: "https://any-site1.com/hhbHzRbC",
+  //   isMobile: true
+  // },
+  // {
+  //   name: "RollySpin",
+  //   logo: "/RollySpin.svg",
+  //   bonus: "200% up to 1,000£ + 50 FREE SPINS",
+  //   url: "https://any-site1.com/znYjBPcw",
+  //   isMobile: true
+  // },
+  // {
+  //   name: "CasinoPrestige",
+  //   logo: "/prestige.svg",
+  //   bonus: "100% Bonus up to £750 + 100 Free Spins + 3 Wheel of Luck Spins",
+  //   url: "https://any-site1.com/yZ4VnswQ",
+  //   isMobile:true
+  // },
+  // {
+  //   name: "DaffSpin",
+  //   logo: "/daffspin.png",
+  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
+  //   url: "https://any-site1.com/zGmF9Yvq",
+  //   isMobile: true
+  // },
   // {
   //   name: "Agent No Wager",
   //   logo: "/agentnowager.svg",
