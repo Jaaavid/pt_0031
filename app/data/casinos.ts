@@ -31,6 +31,13 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
   {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "350% up to £680 + 200 FREE SPINS",
+    url: "https://any-site1.com/hhbHzRbC",
+    isMobile: true
+  },
+  {
     name: "LuckyTwice",
     logo: "/luckytwice.svg",
     bonus: "100% up to £500 + 250 FREE SPINS",
@@ -43,13 +50,6 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "£1000 BONUS + 100 Free Spins",
     url: "https://any-site1.com/mSFVwGrp",
     isMobile:true
-  },
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "350% up to £680 + 200 FREE SPINS",
-    url: "https://any-site1.com/hhbHzRbC",
-    isMobile: true
   },
 
   {
