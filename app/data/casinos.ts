@@ -30,43 +30,50 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 ///
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "350% up to £680 + 200 FREE SPINS",
-    url: "https://any-site1.com/hhbHzRbC",
-    isMobile: true
-  },
-  {
-    name: "LuckyTwice",
-    logo: "/luckytwice.svg",
-    bonus: "100% up to £500 + 250 FREE SPINS",
-    url: "https://any-site1.com/pjskyjLq",
-    isMobile:true
-  },
-  {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://any-site1.com/mSFVwGrp",
-    isMobile:true
-  },
+  // {
+  //   name: "Lizaro",
+  //   logo: "/lizaro.png",
+  //   bonus: "350% up to £680 + 200 FREE SPINS",
+  //   url: "https://any-site1.com/hhbHzRbC",
+  //   isMobile: true
+  // },
+  // {
+  //   name: "LuckyWave",
+  //   logo: "/luckywave.svg",
+  //   bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
+  //   url: "https://any-site1.com/m5Cn7JWD",
+  //   isMobile: true
+  // },
+  // {
+  //   name: "Agent No Wager",
+  //   logo: "/agentnowager.svg",
+  //   bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
+  //   url: "https://any-site1.com/ht2pbwVK",
+  //   isMobile: true
+  // },
+  // {
+  //   name: "LuckyTwice",
+  //   logo: "/luckytwice.svg",
+  //   bonus: "100% up to £500 + 250 FREE SPINS",
+  //   url: "https://any-site1.com/pjskyjLq",
+  //   isMobile:true
+  // },
+  // {
+  //   name: "HarryCasino",
+  //   logo: "/harry.svg",
+  //   bonus: "£1000 BONUS + 100 Free Spins",
+  //   url: "https://any-site1.com/mSFVwGrp",
+  //   isMobile:true
+  // },
 
-  {
-    name: "RollySpin",
-    logo: "/RollySpin.svg",
-    bonus: "200% up to 1,000£ + 50 FREE SPINS",
-    url: "https://any-site1.com/znYjBPcw",
-    isMobile: true
-  },
-  {
-    name: "LuckyWave",
-    logo: "/luckywave.svg",
-    bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
-    url: "https://any-site1.com/m5Cn7JWD",
-    isMobile: true
-  },
 
+  // {
+  //   name: "RollySpin",
+  //   logo: "/RollySpin.svg",
+  //   bonus: "200% up to 1,000£ + 50 FREE SPINS",
+  //   url: "https://any-site1.com/znYjBPcw",
+  //   isMobile: true
+  // },
 
 
   // {
@@ -103,12 +110,7 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
   // {
-  //   name: "Agent No Wager",
-  //   logo: "/agentnowager.svg",
-  //   bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
-  //   url: "https://any-site1.com/ht2pbwVK",
-  //   isMobile: true
-  // },
+
   // {
   //   name: "SlotsCharm",
   //   logo: "/slotscharm.svg",
