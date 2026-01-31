@@ -38,11 +38,11 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "Agent No Wager",
-    logo: "/agentnowager.svg",
-    bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
-    url: "https://any-site1.com/ht2pbwVK",
-    isMobile: true
+    name: "HarryCasino",
+    logo: "/harry.svg",
+    bonus: "£1000 BONUS + 100 Free Spins",
+    url: "https://any-site1.com/mSFVwGrp",
+    isMobile:true
   },
   {
     name: "LuckyWave",
@@ -52,20 +52,21 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://any-site1.com/mSFVwGrp",
-    isMobile:true
-  },
-
-  {
     name: "LuckyTwice",
     logo: "/luckytwice.svg",
     bonus: "100% up to £500 + 250 FREE SPINS",
     url: "https://any-site1.com/pjskyjLq",
     isMobile:true
   },
+  {
+    name: "Agent No Wager",
+    logo: "/agentnowager.svg",
+    bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
+    url: "https://any-site1.com/ht2pbwVK",
+    isMobile: true
+  },
+
+
 
 
 
