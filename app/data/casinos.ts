@@ -52,6 +52,13 @@ const casinosRawData: CasinoRawData[] = [
     isMobile:true
   },
   {
+    name: "CasinoPrestige",
+    logo: "/prestige.svg",
+    bonus: "100% Bonus up to £750 + 100 Free Spins + 3 Wheel of Luck Spins",
+    url: "https://any-site1.com/yZ4VnswQ",
+    isMobile:true
+  },
+  {
     name: "LuckyWave",
     logo: "/luckywave.svg",
     bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
