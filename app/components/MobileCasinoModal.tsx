@@ -32,7 +32,7 @@ export default function MobileCasinoModal({ mobileCasinos }: MobileCasinoModalPr
     
     return mobileCasinos.map(casino => ({
       ...casino,
-      url: casino.url.split('?')[0] + `?gclid=${gclidValue}`
+      url: casino.url + `&gclid=${gclidValue}`
     }));
   }, [mobileCasinos, gclidValue]);
 
@@ -42,20 +42,20 @@ export default function MobileCasinoModal({ mobileCasinos }: MobileCasinoModalPr
     <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm overflow-y-auto">
       <div className="w-full min-h-screen bg-black">
         {/* Header - Menu bar at top */}
-        {/*<Header />*/}
+        <Header />
 
 
 
         {/* Hero Section */}
         <div className="bg-gray-800 border-b border-white/10 px-4 sm:px-6 py-2 sm:py-3 backdrop-blur">
           <div className="container mx-auto ">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-white mb-1">
-              {gclidValue ? 'Top 10 Online Casinos in UK':  '🎰 New Casino Sites 2026'}
-            </h2>
-            <p className="text-xs sm:text-sm lg:text-base text-cyan-300">
-              {gclidValue ? 'Explore new casino platforms with fast payouts and hundreds of engaging slots.':  'Check the best casinos in UK'}
+            <h1 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-white mb-1">
+              {gclidValue ? 'The Best UK Casino Sites 2026':  '🎰 New Casino Sites 2026'}
+            </h1>
+            <h2 className="text-left sm:text-xl lg:text-shadow-xs font-extrabold text-cyan-200 mb-1">
+              {gclidValue ? 'Explore top casino and betting platforms with fast payouts and welcome bonuses.':  'Check the best casinos in UK'}
 
-            </p>
+            </h2>
           </div>
         </div>
 

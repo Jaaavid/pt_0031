@@ -31,47 +31,54 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
   {
+    name: "HarryCasino",
+    logo: "/harry.svg",
+    bonus: "£1000 BONUS + 100 Free Spins",
+    url: "https://any-site1.com/B7W2b6jr?utm_target=harry",
+    isMobile:true
+  },
+  {
+    name: "GQbet",
+    logo: "/gqbet.gif",
+    bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
+    url: "https://any-site1.com/B7W2b6jr?utm_target=gqbet",
+    isMobile: true
+  },
+  {
     name: "Lizaro",
     logo: "/lizaro.png",
     bonus: "350% up to £680 + 200 FREE SPINS",
-    url: "https://any-site1.com/hhbHzRbC",
+    url: "https://any-site1.com/B7W2b6jr?utm_target=lizaro",
     isMobile: true
   },
   {
     name: "LuckyTwice",
     logo: "/luckytwice.svg",
     bonus: "100% up to £500 + 250 FREE SPINS",
-    url: "https://any-site1.com/pjskyjLq",
-    isMobile:true
-  },
-  {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://any-site1.com/mSFVwGrp",
+    url: "https://any-site1.com/B7W2b6jr?utm_target=luckytwice",
     isMobile:true
   },
   {
     name: "VegasHero",
     logo: "/VegasHero.png",
     bonus: "300% up to €500 + 300 FREE SPINS",
-    url: "https://any-site1.com/sF24tnhr",
+    url: "https://any-site1.com/B7W2b6jr?utm_target=vegas",
     isMobile: true
   },
   {
     name: "LuckyWave",
     logo: "/luckywave.svg",
     bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
-    url: "https://any-site1.com/m5Cn7JWD",
+    url: "https://any-site1.com/B7W2b6jr?utm_target=luckywave",
     isMobile: true
   },
-  {
-    name: "Agent No Wager",
-    logo: "/agentnowager.svg",
-    bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
-    url: "https://any-site1.com/ht2pbwVK",
-    isMobile: true
-  },
+  // {
+  //   name: "Agent No Wager",
+  //   logo: "/agentnowager.svg",
+  //   bonus: "Up to 90 FREE SPINS + 45% Without Wager!",
+  //   url: "https://any-site1.com/ht2pbwVK",
+  //   isMobile: true
+  // },
 
   // {
   //   name: "CasinoPrestige",
@@ -281,7 +288,7 @@ const casinosRawData: CasinoRawData[] = [
 
 // Generate casinos with auto-calculated id, rating, and badge
 export const casinos: Casino[] = casinosRawData.map((casino, index) => {
-  const rating = parseFloat((10 - index * 0.1).toFixed(1));
+  const rating = parseFloat((9.9 - Math.floor(index / 2) * 0.1).toFixed(1));
   
   return {
     id: generateIdFromName(casino.name) + index, // Include index to ensure uniqueness

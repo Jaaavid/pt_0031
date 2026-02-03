@@ -12,7 +12,7 @@ export default function Logo({ className = "" }: LogoProps) {
       
       {/* Brand Name */}
       <span className="text-white font-bold text-lg tracking-tight">
-        Leading Casinos <span className="text-teal-400">UK</span>
+        UK Casinos
       </span>
     </div>
   );
