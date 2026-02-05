@@ -30,49 +30,49 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 ///
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
-  // {
-  //   name: "HarryCasino",
-  //   logo: "/harry.svg",
-  //   bonus: "£1000 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
-  //   isMobile:true
-  // },
-  // {
-  //   name: "Qbet",
-  //   logo: "/qbet.svg",
-  //   bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
-  //   isMobile: true
-  // },
-  // {
-  //   name: "LuckyWave",
-  //   logo: "/luckywave.svg",
-  //   bonus: "100% UP TO £2,000  + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
-  //   isMobile: true
-  // },
-  // {
-  //   name: "LuckyTwice",
-  //   logo: "/luckytwice.svg",
-  //   bonus: "100% up to £500 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
-  //   isMobile:true
-  // },
-  //
-  // {
-  //   name: "VegasHero",
-  //   logo: "/VegasHero.png",
-  //   bonus: "300% up to €500 + 300 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=vegas",
-  //   isMobile: true
-  // },
-  // {
-  //   name: "GQbet",
-  //   logo: "/gqbet.gif",
-  //   bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=gqbet",
-  //   isMobile: true
-  // },
+  {
+    name: "HarryCasino",
+    logo: "/harry.svg",
+    bonus: "£1000 BONUS + 100 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+    isMobile:true
+  },
+  {
+    name: "Qbet",
+    logo: "/qbet.svg",
+    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
+    isMobile: true
+  },
+  {
+    name: "LuckyWave",
+    logo: "/luckywave.svg",
+    bonus: "100% UP TO £2,000  + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
+    isMobile: true
+  },
+  {
+    name: "LuckyTwice",
+    logo: "/luckytwice.svg",
+    bonus: "100% up to £500 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
+    isMobile:true
+  },
+
+  {
+    name: "VegasHero",
+    logo: "/VegasHero.png",
+    bonus: "300% up to €500 + 300 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=vegas",
+    isMobile: true
+  },
+  {
+    name: "GQbet",
+    logo: "/gqbet.gif",
+    bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=gqbet",
+    isMobile: true
+  },
   //
   //
   //
