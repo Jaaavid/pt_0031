@@ -31,11 +31,11 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
-    isMobile:true
+    name: "SpinShark",
+    logo: "/spinshark.svg",
+    bonus: "£900 BONUS + 150 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
+    isMobile: true
   },
   {
     name: "Qbet",
@@ -44,13 +44,7 @@ const casinosRawData: CasinoRawData[] = [
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
     isMobile: true
   },
-  {
-    name: "SpinShark",
-    logo: "/spinshark.svg",
-    bonus: "£900 BONUS + 150 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
-    isMobile: true
-  },
+
   {
     name: "LuckyWave",
     logo: "/luckywave.svg",
@@ -79,9 +73,6 @@ const casinosRawData: CasinoRawData[] = [
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
     isMobile: true
   },
-
-
-
   {
     name: "VegasHero",
     logo: "/VegasHero.png",
@@ -89,12 +80,20 @@ const casinosRawData: CasinoRawData[] = [
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=vegas",
     isMobile: true
   },
+  {
+    name: "GQbet",
+    logo: "/gqbet.gif",
+    bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=gqbet",
+    isMobile: true
+  },
+
   // {
-  //   name: "GQbet",
-  //   logo: "/gqbet.gif",
-  //   bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=gqbet",
-  //   isMobile: true
+  //   name: "HarryCasino",
+  //   logo: "/harry.svg",
+  //   bonus: "£1000 BONUS + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+  //   isMobile:true
   // },
 
 
