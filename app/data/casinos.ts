@@ -38,7 +38,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/BetNinja.png",
     bonus: "£1000 + 100 Free Spins",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
-    votes: 4872,
+    votes: 5872,
     isMobile: true
   },
   {
