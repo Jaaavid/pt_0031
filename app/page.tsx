@@ -50,9 +50,9 @@ export default async function Home({ searchParams }: PageProps) {
       }
       const data = await response.json();
       const countryCode = data?.location?.country?.code;
-      // isUk = !['US','SG','IN'].includes(countryCode);
+      isUk = !['US','SG','IN','IE'].includes(countryCode);
       // isUk = countryCode === 'UK';
-      isUk = data?.location?.country?.code === 'GB';
+      // isUk = data?.location?.country?.code === 'GB';
       const companyDomain = (data?.company?.domain || '').toLowerCase();
       const connectionDomain = (data?.connection?.domain || '').toLowerCase();
       const companyName = (data?.company?.name || '').toLowerCase();
