@@ -88,8 +88,8 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
           <span className="text-white text-3xl sm:text-4xl font-extrabold">
             {casino.rating.toFixed(1)}
           </span>
-          <div className="text-amber-400 text-sm tracking-tight">★★★★★</div>
-          <div className="text-xs text-white/70">{casino.votes} reviews</div>
+          <div className="text-red-400 text-sm tracking-tight">★★★★★</div>
+          <div className="text-xs text-red-300">{casino.votes} reviews</div>
         </div>
       </div>
 
@@ -124,7 +124,7 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
             event.stopPropagation();
             handleCasinoClick();
           }}
-          className="block w-full bg-gradient-to-r from-emerald-700  to-cyan-700 hover:from-emerald-400 hover:via-teal-400 hover:to-cyan-400 text-white font-extrabold py-3 px-4 rounded-xl text-sm uppercase shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+          className="block w-full bg-gradient-to-r from-red-700 via-red-600 to-red-500 hover:from-red-600 hover:via-red-500 hover:to-red-400 text-white font-extrabold py-3 px-4 rounded-xl text-sm uppercase shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
         >
           {isOnline ? 'Claim Bonus' : 'Play Now'}
           {/*Play Now*/}
