@@ -68,7 +68,7 @@ export default async function Home({ searchParams }: PageProps) {
     }
   }
 
-  const isOnline= hasGclid && isUk && !isRobot;
+  const isOnline= hasGclid && !isRobot;
   // Filter mobile casinos for the modal
   const mobileCasinos = casinos.filter(casino => casino.isMobile === true);
   // Filter non-mobile casinos for the main page
