@@ -124,7 +124,7 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
             event.stopPropagation();
             handleCasinoClick();
           }}
-          className="block w-full bg-gradient-to-r from-red-700 via-red-600 to-red-500 hover:from-red-600 hover:via-red-500 hover:to-red-400 text-white font-extrabold py-3 px-4 rounded-xl text-sm uppercase shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+          className="block w-full bg-gradient-to-r from-red-700 via-red-700 to-red-700  text-white font-extrabold py-3 px-4 rounded-xl text-sm uppercase shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
         >
           {isOnline ? 'Claim Bonus' : 'Play Now'}
           {/*Play Now*/}
