@@ -42,14 +42,6 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "LuckyWave",
-    logo: "/luckywave.svg",
-    bonus: "100% UP TO £2,000  + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
-    votes: 1724,
-    isMobile: true
-  },
-  {
     name: "VegasHero",
     logo: "/VegasHero.png",
     bonus: "300% up to €500 + 300 FREE SPINS",
@@ -66,6 +58,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
+  {
+    name: "LuckyWave",
+    logo: "/luckywave.svg",
+    bonus: "100% UP TO £2,000  + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
+    votes: 1724,
+    isMobile: true
+  },
+
   {
     name: "SpinShark",
     logo: "/spinshark.svg",
