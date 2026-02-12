@@ -56,6 +56,8 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
     "Paysafecard",
     "Bank Transfer"];
 
+  const badgeClass = 'bg-red-500 text-white';
+
   return (
     <article
       className="relative overflow-hidden bg-[#151b2e] rounded-2xl p-5 shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer border border-red-600/70"
@@ -64,11 +66,17 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       onClick={handleCardClick}
       onKeyDown={handleCardKeyDown}
     >
-      {typeof rank === 'number' && (
-        <span className="absolute top-0 left-0 bg-red-600 text-white font-extrabold text-sm sm:text-base px-3 py-1.5 rounded-br-lg rounded-tl-2xl">
-          #{rank}
+      {badge && (
+        <span className={`absolute top-0 left-0 rounded-br-lg rounded-tl-2xl px-3 py-1.5 text-[11px] font-extrabold ${badgeClass}`}>
+          {badge === 'gold' ? "Fast Withdrawal" : badge === 'silver' ? 'Big Bonuses' : badge === 'bronze' ? 'Most Popular' :  'Trusted / Licensed'}
         </span>
       )}
+
+      {/* {typeof rank === 'number' && (
+        <span className="absolute top-0 right-0 bg-red-600 text-white font-extrabold text-sm sm:text-base px-3 py-1.5 rounded-bl-lg rounded-tr-2xl">
+          #{rank}
+        </span>
+      )} */}
 
       <div className="flex items-start justify-between gap-4 mb-4">
         <div className="w-40 h-28 sm:w-48 sm:h-32 flex items-start justify-start [&>svg]:text-white [&>svg]:fill-white [&>svg]:w-full [&>svg]:h-full">
@@ -79,26 +87,27 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
             {casino.rating.toFixed(1)}
           </div>
           <div className="text-red-400 text-sm tracking-tight">★★★★★</div>
-          <div className="text-xs text-white/60">{casino.votes} reviews</div>
+          {/* <div className="text-xs text-white/60">{casino.votes} reviews</div> */}
         </div>
       </div>
 
-      {isOnline &&
-       <div className="mb-3 rounded-xl border border-emerald-400/20 bg-emerald-400/10 px-4 py-3">
-      <div className="text-sm text-emerald-300 font-semibold">
-        {isOnline
-          ? badge === 'gold'
-            ? '✨ Instant Withdrawal & Big Bonuses'
-            : badge === 'silver'
-            ? '✨ Most Popular'
-            : badge === 'bronze'
-            ? '✨ Big Bonuses'
-            : '✨ Fast payouts'
-          : '✨ Fast payouts • Top games'}
-      </div>
-      {/* <div className="text-xs text-white/60">New players only • 24/7 support</div> */}
-    </div>
-     }
+      {/*
+        {isOnline && (
+          <div className="mb-3 rounded-xl border border-emerald-400/20 bg-emerald-400/10 px-4 py-3">
+            <div className="text-sm text-emerald-300 font-semibold">
+              {isOnline
+                ? badge === 'gold'
+                  ? '✨ Instant Withdrawal & Big Bonuses'
+                  : badge === 'silver'
+                  ? '✨ Most Popular'
+                  : badge === 'bronze'
+                  ? '✨ Big Bonuses'
+                  : '✨ Fast payouts'
+                : '✨ Fast payouts • Top games'}
+            </div>
+          </div>
+        )}
+      */}
 
        {/* {isOnline && */}
         {/* <div className="mb-4 flex items-center justify-between rounded-lg border border-red-600/30 bg-red-600/10 px-3 py-2"> */}
