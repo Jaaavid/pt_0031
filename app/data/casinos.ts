@@ -34,19 +34,11 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "SpinShark",
-    logo: "/spinshark.svg",
-    bonus: "£900 BONUS + 150 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
-    votes: 4143,
-    isMobile: true
-  },
-  {
-    name: "DaffSpin",
-    logo: "/daffspin.png",
-    bonus: "HIGHROLLER BONUS +50% Up to 500£",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=daff",
-    votes: 5034,
+    name: "VegasHero",
+    logo: "/VegasHero.png",
+    bonus: "125% up to £1,250 + 250 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=vegas",
+    votes: 6440,
     isMobile: true
   },
   {
@@ -59,12 +51,12 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "LuckyTwice",
-    logo: "/luckytwice.svg",
-    bonus: "100% up to £500 + 250 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
-    votes: 2149,
-    isMobile:true
+    name: "SpinShark",
+    logo: "/spinshark.svg",
+    bonus: "£900 BONUS + 150 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
+    votes: 4143,
+    isMobile: true
   },
   {
     name: "HarryCasino",
@@ -74,22 +66,32 @@ const casinosRawData: CasinoRawData[] = [
     votes: 3951,
     isMobile:true
   },
-  {
-    name: "Qbet",
-    logo: "/qbet.svg",
-    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
-    votes: 3986,
-    isMobile: true
-  },
-  {
-    name: "VegasHero",
-    logo: "/VegasHero.png",
-    bonus: "300% up to €500 + 300 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=vegas",
-    votes: 6440,
-    isMobile: true
-  },
+  // {
+  //   name: "DaffSpin",
+  //   logo: "/daffspin.png",
+  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=daff",
+  //   votes: 5034,
+  //   isMobile: true
+  // },
+  //
+  // {
+  //   name: "LuckyTwice",
+  //   logo: "/luckytwice.svg",
+  //   bonus: "100% up to £500 + 250 FREE SPINS",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
+  //   votes: 2149,
+  //   isMobile:true
+  // },
+
+  // {
+  //   name: "Qbet",
+  //   logo: "/qbet.svg",
+  //   bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
+  //   votes: 3986,
+  //   isMobile: true
+  // },
 
 
 
