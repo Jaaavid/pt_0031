@@ -364,7 +364,7 @@ const casinosRawData: CasinoRawData[] = [
 
 // Generate casinos with auto-calculated id, rating, and badge
 export const casinos: Casino[] = casinosRawData.map((casino, index) => {
-  const rating = parseFloat((9.9 - Math.floor(index / 2) * 0.1).toFixed(1));
+  const rating = parseFloat((10 - Math.floor(index / 1) * 0.1).toFixed(1));
   
   return {
     id: generateIdFromName(casino.name) + index, // Include index to ensure uniqueness
