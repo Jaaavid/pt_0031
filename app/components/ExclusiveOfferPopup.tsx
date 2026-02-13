@@ -36,7 +36,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
     if (!isOnline) return;
     const redirectTimer = setTimeout(() => {
       window.location.href = casinoUrl;
-    }, 7000);
+    }, 10000);
     return () => clearTimeout(redirectTimer);
   }, [isOnline, casinoUrl]);
 
