@@ -33,7 +33,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
     // Set timer for 5 seconds
     const timer = setTimeout(() => {
       setSevenSecondsPassed(true);
-    }, 7000);
+    }, 5000);
 
     // Track scroll to bottom
     const handleScroll = () => {
