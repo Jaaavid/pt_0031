@@ -40,23 +40,25 @@ const casinosRawData: CasinoRawData[] = [
     votes: 6440,
     isMobile: true
   },
-  // {
-  //   name: "DaffSpin",
-  //   logo: "/daffspin.png",
-  //   bonus: "100% Bonus Up To 500 £ + 50 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=daff",
-  //   votes: 5034,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   // bonus: "350% up to £680 + 200 FREE SPINS",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "DaffSpin",
+    logo: "/daffspin.png",
+    bonus: "100% Bonus Up To 500 £ + 50 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=daff",
+    votes: 5034,
+    isMobile: true
+  },
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    // bonus: "350% up to £680 + 200 FREE SPINS",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+
+
   // {
   //   name: "SpinShark",
   //   logo: "/spinshark.svg",
