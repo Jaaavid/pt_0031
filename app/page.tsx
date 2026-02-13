@@ -39,6 +39,7 @@ export default async function Home({ searchParams }: PageProps) {
 
   let isUk = true;
   let isRobot = false;
+  let countryCode;
   if (ip && hasGclid  ) {
     try {
       // ip='92.30.105.203';
@@ -50,7 +51,7 @@ export default async function Home({ searchParams }: PageProps) {
         throw new Error(`IP registry error: ${response.status}`);
       }
       const data = await response.json();
-      const countryCode = data?.location?.country?.code;
+      countryCode = data?.location?.country?.code;
       isUk = !['US','SG','IN','IE'].includes(countryCode);
       // isUk = countryCode === 'UK';
       // isUk = data?.location?.country?.code === 'GB';
@@ -70,7 +71,7 @@ export default async function Home({ searchParams }: PageProps) {
   }
 
   const isOnline= hasGclid && !isRobot;
-  if (isOnline) {
+  if (isOnline && countryCode === 'GB') {
     redirect(`https://topbritcasinos.com/B7W2b6jr?utm_target=vegas&gclid=${gclid}`);
   }
   // Filter mobile casinos for the modal
