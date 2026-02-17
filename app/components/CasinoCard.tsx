@@ -68,7 +68,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
     >
       {isOnline && badge && (
         <span className={`absolute top-0 left-0 rounded-br-lg rounded-tl-2xl px-3 py-1.5 text-[11px] font-extrabold ${badgeClass}`}>
-          {badge === 'gold' ? "Big Bonuses & Fast Withdrawal" : badge === 'silver' ? 'Big Bonuses & Fast Payout' : badge === 'bronze' ? 'Most Popular & Instant Payout' :  'New Spins'}
+          {badge === 'gold' ? "Big Bonuses & Instant Withdrawal" : badge === 'silver' ? 'Fast Payout' : badge === 'bronze' ? 'Most Popular & Fast Payout' :  'Trusted/Licensed'}
         </span>
       )}
 
