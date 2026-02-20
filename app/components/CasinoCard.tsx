@@ -115,26 +115,26 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       {/* <span className="text-xs sm:text-sm font-bold text-red-200">Ends soon</span> */}
     {/* </div>} */}
 
-      <div className="text-center mb-4 rounded-xl bg-white/5 px-4 py-4">
-        <div className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
+      <div className="text-center mb-4 rounded-xl bg-white/5 px-4 py-3">
+        <div className="text-base sm:text-lg font-extrabold text-white tracking-tight">
           {casino.bonus}
         </div>
       </div>
 
-      {isOnline && (
-        <div className="flex justify-center mb-4">
-          <div className="flex max-w-full gap-2 overflow-x-auto no-scrollbar">
-            {paymentMethods.map((method) => (
-              <span
-                key={method}
-                className="whitespace-nowrap rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] font-medium text-white/80"
-              >
-                {method}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
+      {/*{isOnline && (*/}
+      {/*  <div className="flex justify-center mb-4">*/}
+      {/*    <div className="flex max-w-full gap-2 overflow-x-auto no-scrollbar">*/}
+      {/*      {paymentMethods.map((method) => (*/}
+      {/*        <span*/}
+      {/*          key={method}*/}
+      {/*          className="whitespace-nowrap rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] font-medium text-white/80"*/}
+      {/*        >*/}
+      {/*          {method}*/}
+      {/*        </span>*/}
+      {/*      ))}*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*)}*/}
 
       <a
         href={casino.url}
@@ -144,13 +144,16 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
           event.stopPropagation();
           handleCasinoClick();
         }}
-        className="block w-full bg-gradient-to-r from-red-600 via-red-600 to-red-700 text-white font-extrabold py-3.5 px-4 rounded-xl text-sm uppercase shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+        className="block w-full bg-gradient-to-r from-red-600 via-red-600 to-red-700 text-white font-extrabold py-3 px-4 rounded-xl text-base uppercase shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
       >
-        {/*{isOnline ? 'Claim Bonus' : 'Play Now'}*/}
-        Play Now
+        {isOnline ? 'Get Bonus' : 'Play Now'}
+        {/* Play Now */}
         <ArrowRight className="w-4 h-4" />
         {isOnline ? <span aria-hidden="true" className="text-xl">💰</span> : ''}
       </a>
+      <div className="mt-2 text-center text-[11px] text-white/60">
+        T&amp;Cs apply.
+      </div>
     </article>
   );
 }
