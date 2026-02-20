@@ -34,7 +34,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
     const timer = setTimeout(() => {
       setIsVisible(true);
       sessionStorage.setItem('exclusiveOfferShown', 'true');
-    }, 7000);
+    }, 12000);
 
     return () => {
       clearTimeout(timer);
