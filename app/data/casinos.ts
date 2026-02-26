@@ -41,6 +41,22 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "HarryCasino",
+    logo: "/harry.svg",
+    bonus: "£1000 BONUS + 100 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+    votes: 3951,
+    isMobile:true
+  },
+  {
+    name: "30Bet",
+    logo: "/30bet.gif",
+    bonus: "Claim your £100 now + 50 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+    votes: 3986,
+    isMobile: true
+  },
+  {
     name: "LuckyTwice",
     logo: "/luckytwice.svg",
     bonus: "100% up to £500 + 250 FREE SPINS",
@@ -48,6 +64,7 @@ const casinosRawData: CasinoRawData[] = [
     votes: 2149,
     isMobile:true
   },
+
   {
     name: "Lizaro",
     logo: "/lizaro.png",
@@ -58,23 +75,8 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
-    votes: 3951,
-    isMobile:true
-  },
 
-  {
-    name: "30Bet",
-    logo: "/30bet.gif",
-    bonus: "Claim your £100 now + 50 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
-    votes: 3986,
-    isMobile: true
-  },
+
 
   // {
   //   name: "BetNinja",
