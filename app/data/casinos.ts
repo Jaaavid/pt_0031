@@ -41,10 +41,10 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "30Bet",
-    logo: "/30bet.gif",
-    bonus: "Claim your £100 now + 50 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+    name: "Qbet",
+    logo: "/qbet.svg",
+    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
     votes: 3986,
     isMobile: true
   },
@@ -56,14 +56,25 @@ const casinosRawData: CasinoRawData[] = [
     votes: 3951,
     isMobile:true
   },
+
   {
-    name: "Qbet",
-    logo: "/qbet.svg",
-    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
-    votes: 3986,
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 + 100 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
+    votes: 4915,
     isMobile: true
   },
+
+
+  // {
+  //   name: "30Bet",
+  //   logo: "/30bet.gif",
+  //   bonus: "Claim your £100 now + 50 Free Spins",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+  //   votes: 3986,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "LuckyTwice",
@@ -87,15 +98,6 @@ const casinosRawData: CasinoRawData[] = [
 
 
 
-  // {
-  //   name: "BetNinja",
-  //   logo: "/BetNinja.png",
-  //   bonus: "£1000 + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
-  //
 
 
   // {
