@@ -41,14 +41,6 @@ const casinosRawData: CasinoRawData[] = [
     isMobile:true
   },
   {
-    name: "BetNinja",
-    logo: "/BetNinja.png",
-    bonus: "£1000 + 100 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
-    votes: 4915,
-    isMobile: true
-  },
-  {
     name: "Lizaro",
     logo: "/lizaro.png",
     bonus: "200% up to £1000 + 250 FREE SPINS",
@@ -57,11 +49,11 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "SpinKings",
-    logo: "/spinking.png",
-    bonus: "GET 100% BONUS UP TO £100",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinkings",
-    votes: 4143,
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 + 100 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
+    votes: 4915,
     isMobile: true
   },
   {
@@ -72,6 +64,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4143,
     isMobile: true
   },
+  {
+    name: "SpinKings",
+    logo: "/spinking.png",
+    bonus: "GET 100% BONUS UP TO £100",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinkings",
+    votes: 4143,
+    isMobile: true
+  },
+
   //
   // {
   //   name: "HarryCasino",
