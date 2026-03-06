@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
-  --foreground: #ffffff;
-  --accent: #14b8a6;
-  --accent-2: #f97316;
+  --background: #07140f;
+  --foreground: #f6edd8;
+  --accent: #d4af37;
+  --accent-2: #8f1d1d;
+  --felt-900: #07140f;
+  --felt-800: #0d2018;
+  --felt-700: #143125;
+  --gold-500: #d4af37;
+  --gold-300: #f1d987;
+  --card-50: #f7f2e6;
+  --card-100: #efe5cf;
+  --wine-600: #8f1d1d;
 }
 
 @theme inline {
@@ -16,17 +24,52 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #ffffff;
-    --accent: #2dd4bf;
-    --accent-2: #fb923c;
+    --background: #07140f;
+    --foreground: #f6edd8;
+    --accent: #d4af37;
+    --accent-2: #8f1d1d;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top, rgba(212, 175, 55, 0.14), transparent 24%),
+    radial-gradient(circle at 20% 20%, rgba(143, 29, 29, 0.15), transparent 22%),
+    linear-gradient(180deg, #0f261c 0%, #07140f 100%);
   color: var(--foreground);
   font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 26px 26px;
+  mask-image: radial-gradient(circle at center, black 45%, transparent 100%);
+  opacity: 0.4;
+}
+
+a, button {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.28);
+  color: #fff9ea;
 }
 
 .no-scrollbar::-webkit-scrollbar { display: none; }

@@ -28,41 +28,22 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm overflow-y-auto">
-      <div className="w-full min-h-screen bg-black">
-        {/* Header - Menu bar at top */}
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-[#07140f]/92 backdrop-blur-md">
+      <div className="w-full min-h-screen bg-transparent">
         <Header />
 
-
-
-        {/* Hero Section */}
-        <div className="bg-gray-800 border-b border-white/10 px-4 sm:px-6 py-2 sm:py-3 backdrop-blur">
-          <div className="container mx-auto ">
-            <h1 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-white mb-1">
+        <div className="border-b border-[#d4af37]/15 bg-black/15 px-4 py-3 backdrop-blur sm:px-6">
+          <div className="container mx-auto">
+            <p className="mb-1 text-[10px] font-bold uppercase tracking-[0.35em] text-[#d4af37]">Mobile Table</p>
+            <h1 className="mb-1 text-lg font-extrabold text-white sm:text-xl lg:text-2xl">
               {isOnline ? 'Best Casino Sites 2026' : '🎰 New Casino Sites 2026'}
             </h1>
-            <h2 className="text-left sm:text-xl lg:text-shadow-xs font-extrabold text-red-400 mb-1">
+            <h2 className="text-left font-extrabold text-[#f1d987] sm:text-xl lg:text-shadow-xs">
               {isOnline ? 'Explore top new casino and betting platforms with fast withdrawals and welcome bonuses.' : 'Check the best casinos in UK'}
-
             </h2>
           </div>
         </div>
-         {/* {isOnline && (
-        <div className="mb-3 flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold text-white/90">
-            ✓ 100% Legal
-          </span>
-          <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold text-white/90">
-            🇬🇧 UK Regulated
-          </span>
-          <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold text-white/90">
-            ⚡ Fast Withdrawals
-          </span>
-        </div>
-      )} */}
 
-
-        {/* Content */}
         <div className="container mx-auto px-4 sm:px-6 py-5 sm:py-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-3 max-w-5xl mx-auto">
             {updatedCasinos.map((casino, index) => (
@@ -76,15 +57,13 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
             ))}
           </div>
 
-          {/* Disclaimer */}
-          <div className="mt-6 sm:mt-8 bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4 max-w-6xl mx-auto shadow-sm">
-            <p className="text-gray-400 text-xs sm:text-sm text-center">
+          <div className="mx-auto mt-6 max-w-6xl rounded-[26px] border border-[#d4af37]/12 bg-white/[0.04] p-3 shadow-sm sm:mt-8 sm:p-4">
+            <p className="text-center text-xs text-[#d9cfbc]/75 sm:text-sm">
               <strong>New customers only.</strong> 18+. T&Cs apply. BeGambleAware.org. Please play responsibly.
             </p>
           </div>
         </div>
 
-        {/* Footer */}
         <Footer />
       </div>
     </div>
