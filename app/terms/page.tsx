@@ -25,7 +25,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using alltimecasinos.com (the "Website" or "Service"), you accept and agree
+                By accessing and using topbritslots.com (the "Website" or "Service"), you accept and agree
                 to be bound by the terms and provision of this agreement. If you do not agree to abide by the 
                 above, please do not use this Service.
               </p>
@@ -218,7 +218,7 @@ export default function TermsOfService() {
               </p>
               <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
                 <p className="font-semibold text-white">Casino Top Choices</p>
-                <p>Website: <a href="https://www.alltimecasinos.com" className="text-emerald-400 hover:text-emerald-300 underline">alltimecasinos.com</a></p>
+                <p>Website: <a href="https://www.topbritslots.com" className="text-emerald-400 hover:text-emerald-300 underline">topbritslots.com</a></p>
                 <p>Email: Please use our contact form on the website</p>
               </div>
             </section>
@@ -242,7 +242,7 @@ export default function TermsOfService() {
           </div>
           <div className="border-t border-white/10 pt-4 sm:pt-6 text-center">
             <p className="text-gray-500 text-xs sm:text-sm">
-              © 2026 alltimecasinos.com. For educational purposes only. 18+ only. Please gamble responsibly.
+              © 2026 topbritslots.com. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
             <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
               <a href="/" className="text-emerald-400 hover:text-emerald-300">Home</a>
