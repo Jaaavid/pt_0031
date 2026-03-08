@@ -32,45 +32,46 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "SpinShark",
-  //   logo: "/spinshark.svg",
-  //   bonus: "£900 BONUS + 150 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
-  //   votes: 4143,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "Basswin",
-  //   logo: "/basswin.svg",
-  //   bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=basswin",
-  //   votes: 3951,
-  //   isMobile:true
-  // },
-  //
-  // {
-  //   name: "BetNinja",
-  //   logo: "/BetNinja.png",
-  //   bonus: "£1000 + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
+  {
+    name: "SpinShark",
+    logo: "/spinshark.svg",
+    bonus: "£900 BONUS + 150 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinshark",
+    votes: 4143,
+    isMobile: true
+  },
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+
+  {
+    name: "Basswin",
+    logo: "/basswin.svg",
+    bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
+    votes: 3951,
+    isMobile:true
+  },
+
+  {
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    votes: 4915,
+    isMobile: true
+  },
 
   // {
   //   name: "SpinKings",
   //   logo: "/spinking.png",
   //   bonus: "GET 100% BONUS UP TO £100",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinkings",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinkings",
   //   votes: 4143,
   //   isMobile: true
   // },
@@ -80,7 +81,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "HarryCasino",
   //   logo: "/harry.svg",
   //   bonus: "£1000 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
   //   votes: 3951,
   //   isMobile:true
   // },
@@ -90,7 +91,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "Verywell",
   //   logo: "/verywell.png",
   //   bonus: "300 FREE SPINS FOR ALL NEW PLAYERS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=verywell",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=verywell",
   //   votes: 3951,
   //   isMobile:true
   // },
@@ -100,7 +101,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "30Bet",
   //   logo: "/30bet.gif",
   //   bonus: "Claim your £100 now + 50 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
   //   votes: 3986,
   //   isMobile: true
   // },
@@ -110,7 +111,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "HarryCasino",
   //   logo: "/harry.svg",
   //   bonus: "£1000 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
   //   votes: 3951,
   //   isMobile:true
   // },
@@ -119,7 +120,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "LuckyTwice",
   //   logo: "/luckytwice.svg",
   //   bonus: "100% up to £500 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=luckytwice",
   //   votes: 2149,
   //   isMobile:true
   // },
@@ -128,7 +129,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "Britsino",
   //   logo: "/britsino.webp",
   //   bonus: "GET YOUR £2,200 + 2000 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=britsino",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=britsino",
   //   votes: 3986,
   //   isMobile: true
   // },
@@ -141,7 +142,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "Qbet",
   //   logo: "/qbet.svg",
   //   bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
   //   votes: 3986,
   //   isMobile: true
   // },
@@ -152,7 +153,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "30Bet",
   //   logo: "/30bet.gif",
   //   bonus: "Claim your £100 now + 50 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
   //   votes: 3986,
   //   isMobile: true
   // },
@@ -161,7 +162,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "LuckyTwice",
   //   logo: "/luckytwice.svg",
   //   bonus: "100% up to £500 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=luckytwice",
   //   votes: 2149,
   //   isMobile:true
   // },
@@ -171,7 +172,7 @@ const casinosRawData: CasinoRawData[] = [
   //   logo: "/lizaro.png",
   //   // bonus: "350% up to £680 + 200 FREE SPINS",
   //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
   //   votes: 5872,
   //   isMobile: true
   // },
@@ -185,7 +186,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "SpinFin",
   //   logo: "/spinfin.svg",
   //   bonus: "100% up to €600 + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinfin",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinfin",
   //   votes: 4915,
   //   isMobile: true
   // },
@@ -194,7 +195,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "30Bet",
   //   logo: "/30bet.gif",
   //   bonus: "Claim your £100 now + 50 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
   //   votes: 3986,
   //   isMobile: true
   // },
@@ -203,7 +204,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "HarryCasino",
   //   logo: "/harry.svg",
   //   bonus: "£1000 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
   //   votes: 3951,
   //   isMobile:true
   // },
@@ -217,7 +218,7 @@ const casinosRawData: CasinoRawData[] = [
   //   logo: "/lizaro.png",
   //   // bonus: "350% up to £680 + 200 FREE SPINS",
   //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
   //   votes: 5872,
   //   isMobile: true
   // },
@@ -228,7 +229,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "VegasHero",
   //   logo: "/VegasHero.png",
   //   bonus: "125% up to £1,250 + 250 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=vegas",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=vegas",
   //   votes: 6440,
   //   isMobile: true
   // },
@@ -244,7 +245,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "LuckyWave",
   //   logo: "/luckywave.svg",
   //   bonus: "100% UP TO £2,000  + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=luckywave",
   //   votes: 1724,
   //   isMobile: true
   // },
@@ -252,7 +253,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "Fish&Spins",
   //   logo: "/fishspins.svg",
   //   bonus: "£750 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=fishandspins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=fishandspins",
   //   votes: 3403,
   //   isMobile: true
   // },
@@ -265,7 +266,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "GQbet",
   //   logo: "/gqbet.gif",
   //   bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=gqbet",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=gqbet",
   //   votes: 1997,
   //   isMobile: true
   // },
@@ -273,7 +274,7 @@ const casinosRawData: CasinoRawData[] = [
   //   name: "HarryCasino",
   //   logo: "/harry.svg",
   //   bonus: "£1000 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
   //   votes: 3951,
   //   isMobile:true
   // },
