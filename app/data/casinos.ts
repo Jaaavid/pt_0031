@@ -41,6 +41,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% up to €2,000 + 150 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+    votes: 4915,
+    isMobile: true
+  },
+  {
     name: "Lizaro",
     logo: "/lizaro.png",
     bonus: "200% up to £1000 + 250 FREE SPINS",
@@ -57,15 +65,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
-
-  {
-    name: "Basswin",
-    logo: "/basswin.svg",
-    bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
-    votes: 3951,
-    isMobile:true
-  },
+  //
+  // {
+  //   name: "Basswin",
+  //   logo: "/basswin.svg",
+  //   bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
 
 
   // {
