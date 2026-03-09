@@ -32,40 +32,40 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-  // {
-  //   name: "SpinShark",
-  //   logo: "/spinshark.svg",
-  //   bonus: "£900 BONUS + 150 Free Spins",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinshark",
-  //   votes: 4143,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-  //
-  // {
-  //   name: "BetNinja",
-  //   logo: "/BetNinja.png",
-  //   bonus: "£1000 + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
-  //
-  // {
-  //   name: "Basswin",
-  //   logo: "/basswin.svg",
-  //   bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
-  //   votes: 3951,
-  //   isMobile:true
-  // },
+  {
+    name: "SpinShark",
+    logo: "/spinshark.svg",
+    bonus: "£900 BONUS + 150 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinshark",
+    votes: 4143,
+    isMobile: true
+  },
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+
+  {
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    votes: 4915,
+    isMobile: true
+  },
+
+  {
+    name: "Basswin",
+    logo: "/basswin.svg",
+    bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
+    votes: 3951,
+    isMobile:true
+  },
 
 
   // {
