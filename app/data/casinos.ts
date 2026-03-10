@@ -49,6 +49,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    votes: 4915,
+    isMobile: true
+  },
+  {
     name: "Westace",
     logo: "/westace.webp",
     bonus: "300% up to €2,000 + 150 FS",
@@ -58,14 +66,7 @@ const casinosRawData: CasinoRawData[] = [
   },
 
 
-  // {
-  //   name: "BetNinja",
-  //   logo: "/BetNinja.png",
-  //   bonus: "£1000 + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
+
   //
   // {
   //   name: "Basswin",
