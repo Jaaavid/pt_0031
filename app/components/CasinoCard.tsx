@@ -59,7 +59,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
     badge === 'gold'
       ? 'High Roller Pick'
       : badge === 'silver'
-        ? 'Popular Choice'
+        ? 'Instant Withdrawal'
         : badge === 'bronze'
           ? 'Fast Cashouts'
           : 'Trusted Choice';
@@ -77,9 +77,9 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       <div className="pointer-events-none absolute right-5 top-5 text-[70px] leading-none text-[#8f1d1d]/10">
         {rank === 1 ? 'A' : rank === 2 ? 'K' : rank === 3 ? 'Q' : 'J'}
       </div>
-      <div className="pointer-events-none absolute bottom-3 left-4 text-3xl text-[#1b1b1b]/12">
-        {rank === 2 ? '♣' : rank === 3 ? '♠' : '♥'}
-      </div>
+      {/*<div className="pointer-events-none absolute bottom-3 left-4 text-3xl text-[#1b1b1b]/12">*/}
+      {/*  {rank === 2 ? '♣' : rank === 3 ? '♠' : '♥'}*/}
+      {/*</div>*/}
 
       <div className="relative z-10 flex items-start justify-between gap-4">
         <div className="flex items-center gap-3">
@@ -112,9 +112,9 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
               {badgeText}
             </span>
           )}
-          <div className="rounded-full border border-white/10 bg-white/6 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[#f6edd8]/85">
-            UK Ready
-          </div>
+          {/*<div className="rounded-full border border-white/10 bg-white/6 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[#f6edd8]/85">*/}
+          {/*  UK Ready*/}
+          {/*</div>*/}
         </div>
       </div>
 
@@ -125,16 +125,16 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
         </div>
       </div>
 
-      <div className="relative z-10 mb-4 flex flex-wrap items-center gap-2">
-        {["Secure", "Fast payout", "Card-friendly"].map((feature) => (
-          <span
-            key={feature}
-            className="rounded-full border border-[#d4af37]/30 bg-[#0f261c] px-3 py-1 text-[11px] font-semibold text-[#f6edd8]"
-          >
-            {feature}
-          </span>
-        ))}
-      </div>
+      {/*<div className="relative z-10 mb-4 flex flex-wrap items-center gap-2">*/}
+      {/*  {["Secure", "Fast payout", "Card-friendly"].map((feature) => (*/}
+      {/*    <span*/}
+      {/*      key={feature}*/}
+      {/*      className="rounded-full border border-[#d4af37]/30 bg-[#0f261c] px-3 py-1 text-[11px] font-semibold text-[#f6edd8]"*/}
+      {/*    >*/}
+      {/*      {feature}*/}
+      {/*    </span>*/}
+      {/*  ))}*/}
+      {/*</div>*/}
 
       {isOnline && (
         <div className="relative z-10 mb-4 flex justify-center">
