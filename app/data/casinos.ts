@@ -41,14 +41,6 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% up to €2,000 + 150 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-    votes: 4915,
-    isMobile: true
-  },
-  {
     name: "Lizaro",
     logo: "/lizaro.png",
     bonus: "200% up to £1000 + 250 FREE SPINS",
@@ -56,15 +48,24 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-
   {
-    name: "BetNinja",
-    logo: "/BetNinja.png",
-    bonus: "£1000 + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% up to €2,000 + 150 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
     votes: 4915,
     isMobile: true
   },
+
+
+  // {
+  //   name: "BetNinja",
+  //   logo: "/BetNinja.png",
+  //   bonus: "£1000 + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
   //
   // {
   //   name: "Basswin",
