@@ -57,14 +57,25 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
+
   {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% up to €2,000 + 150 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-    votes: 4915,
-    isMobile: true
+    name: "HarryCasino",
+    logo: "/harry.svg",
+    bonus: "£1000 BONUS + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
+    votes: 3951,
+    isMobile:true
   },
+
+
+  // {
+  //   name: "Westace",
+  //   logo: "/westace.webp",
+  //   bonus: "300% up to €2,000 + 150 FS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
 
 
 
@@ -86,16 +97,6 @@ const casinosRawData: CasinoRawData[] = [
   //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinkings",
   //   votes: 4143,
   //   isMobile: true
-  // },
-
-  //
-  // {
-  //   name: "HarryCasino",
-  //   logo: "/harry.svg",
-  //   bonus: "£1000 BONUS + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
-  //   votes: 3951,
-  //   isMobile:true
   // },
 
 
