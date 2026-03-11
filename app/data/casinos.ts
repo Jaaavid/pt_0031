@@ -57,15 +57,26 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-
   {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
-    votes: 3951,
-    isMobile:true
+    name: "Qbet",
+    logo: "/qbet.svg",
+    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
+    votes: 3986,
+    isMobile: true
   },
+
+
+
+
+  // {
+  //   name: "HarryCasino",
+  //   logo: "/harry.svg",
+  //   bonus: "£1000 BONUS + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
 
 
   // {
@@ -149,16 +160,6 @@ const casinosRawData: CasinoRawData[] = [
 
 
 
-
-  //
-  // {
-  //   name: "Qbet",
-  //   logo: "/qbet.svg",
-  //   bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
-  //   votes: 3986,
-  //   isMobile: true
-  // },
 
 
 
