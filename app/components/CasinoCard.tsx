@@ -105,7 +105,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
           )}
 
           <div className="flex min-h-[190px] items-center justify-center rounded-[22px] border border-white/5 bg-gray-900 px-4 py-6 sm:min-h-[210px]">
-            <div className="h-20 w-full max-w-[240px] [&>img]:h-full [&>img]:w-full [&>img]:object-contain [&>svg]:h-full [&>svg]:w-full">
+            <div className="h-40 w-full max-w-[240px] [&>img]:h-full [&>img]:w-full [&>img]:object-contain [&>svg]:h-full [&>svg]:w-full">
               {renderLogo()}
             </div>
           </div>

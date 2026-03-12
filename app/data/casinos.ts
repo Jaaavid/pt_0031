@@ -50,23 +50,32 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "DaffSpin",
-    logo: "/daffspin.png",
-    bonus: "HIGHROLLER BONUS +50% Up to 500£",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
-    votes: 4915,
-    isMobile: true
+    name: "Verywell",
+    logo: "/verywell.png",
+    bonus: "300 FS + 400% FOR ALL NEW PLAYERS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=verywell",
+    votes: 3951,
+    isMobile:true
   },
 
+  // {
+  //   name: "DaffSpin",
+  //   logo: "/daffspin.png",
+  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
 
-  {
-    name: "BetNinja",
-    logo: "/BetNinja.png",
-    bonus: "£1000 + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-    votes: 4915,
-    isMobile: true
-  },
+
+  // {
+  //   name: "BetNinja",
+  //   logo: "/BetNinja.png",
+  //   bonus: "£1000 + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
   // {
   //   name: "Qbet",
   //   logo: "/qbet.svg",
@@ -138,15 +147,6 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
 
-
-  // {
-  //   name: "Verywell",
-  //   logo: "/verywell.png",
-  //   bonus: "300 FREE SPINS FOR ALL NEW PLAYERS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=verywell",
-  //   votes: 3951,
-  //   isMobile:true
-  // },
 
 
   // {
