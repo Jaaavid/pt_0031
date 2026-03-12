@@ -34,12 +34,12 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 const casinosRawData: CasinoRawData[] = [
 
   {
-    name: "Royalen",
-    logo: "/royalen.webp",
-    bonus: "200% UP TO £2,000 + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
-    votes: 3951,
-    isMobile:true
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
   },
   {
     name: "BetNinja",
@@ -57,14 +57,7 @@ const casinosRawData: CasinoRawData[] = [
     votes: 3986,
     isMobile: true
   },
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "200% up to £1000 + 250 FREE SPINS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
-    votes: 5872,
-    isMobile: true
-  },
+
 
   {
     name: "SpinShark",
@@ -75,6 +68,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
+  // {
+  //   name: "Royalen",
+  //   logo: "/royalen.webp",
+  //   bonus: "200% UP TO £2,000 + 200 FREE SPINS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
 
 
 
