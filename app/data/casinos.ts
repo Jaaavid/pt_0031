@@ -50,6 +50,15 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "DaffSpin",
+    logo: "/daffspin.png",
+    bonus: "HIGHROLLER BONUS +50% Up to 500£",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
+    votes: 4915,
+    isMobile: true
+  },
+
+  {
     name: "Verywell",
     logo: "/verywell1.png",
     bonus: "300 FS + 400% FOR ALL NEW PLAYERS",
@@ -57,14 +66,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 3951,
     isMobile:true
   },
-  {
-    name: "BetNinja",
-    logo: "/BetNinja.png",
-    bonus: "£1000 bonus + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-    votes: 4915,
-    isMobile: true
-  },
+  // {
+  //   name: "BetNinja",
+  //   logo: "/BetNinja.png",
+  //   bonus: "£1000 bonus + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "DaffSpin",
