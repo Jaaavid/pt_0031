@@ -32,13 +32,14 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
+
   {
-    name: "SpinShark",
-    logo: "/spinshark.svg",
-    bonus: "£900 BONUS + 150 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinshark",
-    votes: 4143,
-    isMobile: true
+    name: "Royalen",
+    logo: "/royalen.webp",
+    bonus: "200% UP TO £2,000 + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
+    votes: 3951,
+    isMobile:true
   },
   {
     name: "BetNinja",
@@ -46,6 +47,14 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "£1000 + 100 Free Spins",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
     votes: 4915,
+    isMobile: true
+  },
+  {
+    name: "Qbet",
+    logo: "/qbet.svg",
+    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
+    votes: 3986,
     isMobile: true
   },
   {
@@ -58,11 +67,11 @@ const casinosRawData: CasinoRawData[] = [
   },
 
   {
-    name: "Qbet",
-    logo: "/qbet.svg",
-    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
-    votes: 3986,
+    name: "SpinShark",
+    logo: "/spinshark.svg",
+    bonus: "£900 BONUS + 150 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=spinshark",
+    votes: 4143,
     isMobile: true
   },
 

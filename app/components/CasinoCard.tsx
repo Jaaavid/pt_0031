@@ -46,6 +46,24 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
     return logos[casino.logo as keyof typeof logos];
   };
 
+  const badgeText =
+    badge === 'gold'
+      ? 'Bonuses & Instant Withdrawal'
+      : badge === 'silver'
+        ? 'Popular & Fast Payouts'
+        : badge === 'bronze'
+          ? 'Fast Payouts'
+          : 'Trusted';
+
+  const badgeClass =
+    badge === 'gold'
+      ? 'bg-[#f4c542] text-[#1a1a1a]'
+      : badge === 'silver'
+        ? 'bg-[#d9dde8] text-[#1a1a1a]'
+        : badge === 'bronze'
+          ? 'bg-[#c77b45] text-white'
+          : 'bg-white/12 text-white';
+
   return (
     <article
       className="cursor-pointer rounded-[28px] border border-white/10 bg-[#111933] p-5 text-white shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl"
@@ -54,6 +72,23 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       onClick={handleCardClick}
       onKeyDown={handleCardKeyDown}
     >
+      {(badge || typeof rank === 'number') && (
+        <div className="mb-4 flex items-center justify-between gap-2">
+          {badge ? (
+            <span className={`inline-flex rounded-full px-3 py-1 text-xs font-extrabold uppercase tracking-wide ${badgeClass}`}>
+              {badgeText}
+            </span>
+          ) : (
+            <span />
+          )}
+          {typeof rank === 'number' && (
+            <span className="text-xs font-bold uppercase tracking-wide text-white/55">
+              #{rank}
+            </span>
+          )}
+        </div>
+      )}
+
       <div className="mb-5 flex items-start justify-between gap-4">
         <div className="flex min-h-[88px] flex-1 items-center justify-start">
           <div className="h-16 w-36 sm:h-20 sm:w-44 [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-white [&>svg]:text-white">
@@ -84,7 +119,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
         }}
         className="flex w-full items-center justify-center rounded-2xl bg-[#f4000f] px-4 py-4 text-xl font-black uppercase text-white"
       >
-        {isOnline ? 'Get Bonus' : 'Play Now'}
+        {isOnline ? 'Play Now' : 'Play Now'}
       </a>
 
       <div className="mt-3 text-center text-sm text-white/50">
