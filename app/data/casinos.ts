@@ -51,7 +51,7 @@ const casinosRawData: CasinoRawData[] = [
   },
   {
     name: "Verywell",
-    logo: "/verywell.png",
+    logo: "/verywell1.png",
     bonus: "300 FS + 400% FOR ALL NEW PLAYERS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=verywell",
     votes: 3951,
