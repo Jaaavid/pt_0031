@@ -96,7 +96,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
         </div>
 
         <div className="mb-4 overflow-hidden rounded-[26px] border border-[#264434] bg-black p-4 shadow-[inset_0_0_0_1px_rgba(177,148,52,0.15)] sm:p-5">
-          {badge && (
+          {isOnline && badge && (
             <div className="mb-4 flex justify-end">
               <span className="inline-flex rounded-full border border-[#85752a] bg-[#2b3928] px-4 py-2 text-[11px] font-extrabold uppercase tracking-[0.28em] text-[#f0d56d] sm:text-xs">
                 {badgeText}
