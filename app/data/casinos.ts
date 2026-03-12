@@ -57,6 +57,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 3951,
     isMobile:true
   },
+  {
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 bonus + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    votes: 4915,
+    isMobile: true
+  },
 
   // {
   //   name: "DaffSpin",
@@ -71,7 +79,7 @@ const casinosRawData: CasinoRawData[] = [
   // {
   //   name: "BetNinja",
   //   logo: "/BetNinja.png",
-  //   bonus: "£1000 + 100 Free Spins",
+  //   bonus: "£1000 bonus + 100 Free Spins",
   //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
   //   votes: 4915,
   //   isMobile: true
