@@ -41,7 +41,6 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-
   {
     name: "Westace",
     logo: "/westace.webp",
@@ -50,6 +49,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
+  {
+    name: "DaffSpin",
+    logo: "/daffspin.png",
+    bonus: "HIGHROLLER BONUS +50% Up to 500£",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
+    votes: 4915,
+    isMobile: true
+  },
+
 
   {
     name: "BetNinja",
@@ -59,14 +67,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
-  {
-    name: "Qbet",
-    logo: "/qbet.svg",
-    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
-    votes: 3986,
-    isMobile: true
-  },
+  // {
+  //   name: "Qbet",
+  //   logo: "/qbet.svg",
+  //   bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=qbet",
+  //   votes: 3986,
+  //   isMobile: true
+  // },
 
 
   // {
@@ -373,13 +381,7 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile:true
   // },
 
-  // {
-  //   name: "DaffSpin",
-  //   logo: "/daffspin.png",
-  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
-  //   url: "https://any-site1.com/zGmF9Yvq",
-  //   isMobile: true
-  // },
+
   // {
 
   // {
