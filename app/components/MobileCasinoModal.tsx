@@ -30,7 +30,7 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-[#07140f]/92 backdrop-blur-md">
       <div className="w-full min-h-screen bg-transparent">
-        <Header />
+        {!isOnline && <Header />}
 
         <div className="border-b border-[#d4af37]/15 bg-black/15 px-4 py-3 backdrop-blur sm:px-6">
           <div className="container mx-auto">
