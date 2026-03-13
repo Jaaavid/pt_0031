@@ -73,8 +73,8 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
 
       <div className="px-1.5 pb-1.5 pt-3 sm:px-2 sm:pb-2">
         <div className="mb-4 flex items-center justify-between gap-3">
-          <div className="flex min-h-[64px] flex-1 items-center">
-            <div className="h-12 w-28 sm:h-14 sm:w-32 [&>img]:h-full [&>img]:w-full [&>img]:object-contain [&>svg]:h-full [&>svg]:w-full">
+          <div className="flex min-h-[76px] flex-1 items-center">
+            <div className="h-16 w-44 sm:h-20 sm:w-52 [&>img]:h-full [&>img]:w-full [&>img]:object-contain [&>svg]:h-full [&>svg]:w-full">
               {renderLogo()}
             </div>
           </div>
