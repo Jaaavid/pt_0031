@@ -41,6 +41,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 bonus + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    votes: 4915,
+    isMobile: true
+  },
+  {
     name: "OdinFortune",
     logo: "/odinfortune.png",
     bonus: "Up to €4,000 + 700 FS",
