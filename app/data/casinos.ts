@@ -65,6 +65,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
+  {
+    name: "HarryCasino",
+    logo: "/harry.svg",
+    bonus: "£1000 BONUS + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
+    votes: 3951,
+    isMobile:true
+  },
+
 
 
   // {
