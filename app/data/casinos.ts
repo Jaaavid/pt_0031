@@ -41,14 +41,6 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "BloodySlots",
-    logo: "/bloodyslots.svg",
-    bonus: "600% Bonus + 450 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=bloodyslot",
-    votes: 5872,
-    isMobile: true
-  },
-  {
     name: "OdinFortune",
     logo: "/odinfortune.png",
     bonus: "Up to €4,000 + 700 FS",
@@ -61,6 +53,14 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/lizaro.png",
     bonus: "200% up to £1000 + 250 FREE SPINS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "BloodySlots",
+    logo: "/bloodyslots.svg",
+    bonus: "600% Bonus + 450 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=bloodyslot",
     votes: 5872,
     isMobile: true
   },
