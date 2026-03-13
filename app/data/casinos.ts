@@ -41,6 +41,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "OdinFortune",
+    logo: "/odinfortune.png",
+    bonus: "Up to €4,000 + 700 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=odinfortune",
+    votes: 5872,
+    isMobile: true
+  },
+  {
     name: "Lizaro",
     logo: "/lizaro.png",
     bonus: "200% up to £1000 + 250 FREE SPINS",
@@ -56,14 +64,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
-  {
-    name: "DaffSpin",
-    logo: "/daffspin.png",
-    bonus: "HIGHROLLER BONUS +50% Up to 500£",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
-    votes: 4915,
-    isMobile: true
-  },
+  // {
+  //   name: "DaffSpin",
+  //   logo: "/daffspin.png",
+  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
 
 
 
