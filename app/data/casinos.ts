@@ -32,13 +32,20 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-
   {
     name: "Westace",
     logo: "/westace.webp",
     bonus: "300% up to €2,000 + 150 FS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
     votes: 4915,
+    isMobile: true
+  },
+  {
+    name: "BloodySlots",
+    logo: "/bloodyslots.svg",
+    bonus: "600% Bonus + 450 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=bloodyslot",
+    votes: 5872,
     isMobile: true
   },
   {
@@ -57,14 +64,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-  {
-    name: "BetNinja",
-    logo: "/BetNinja.png",
-    bonus: "£1000 bonus + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-    votes: 4915,
-    isMobile: true
-  },
+  // {
+  //   name: "BetNinja",
+  //   logo: "/BetNinja.png",
+  //   bonus: "£1000 bonus + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
   // {
   //   name: "DaffSpin",
   //   logo: "/daffspin.png",
