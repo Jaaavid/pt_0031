@@ -130,7 +130,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
           }}
           className="mt-5 flex w-full items-center justify-center rounded-[24px] border border-[#c43f3c] bg-[linear-gradient(180deg,#c92829_0%,#a41016_100%)] px-4 py-4 text-center text-[28px] font-black uppercase tracking-[0.11em] text-white shadow-[0_12px_28px_rgba(155,18,24,0.24)] transition-transform duration-200 hover:scale-[1.01] sm:text-[30px]"
         >
-          {isOnline ? 'Play Now' : 'Play Now'}
+          {isOnline ? 'Claim Now' : 'Play Now'}
         </a>
 
         <div className="mt-4 text-center text-sm font-medium text-white/65">
