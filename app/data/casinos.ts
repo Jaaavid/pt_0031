@@ -32,32 +32,41 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
+  {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% up to €2,000 + 150 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+    votes: 4915,
+    isMobile: true
+  },
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "BetNinja",
+    logo: "/BetNinja.png",
+    bonus: "£1000 bonus + 100 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+    votes: 4915,
+    isMobile: true
+  },
+  {
+    name: "DaffSpin",
+    logo: "/daffspin.png",
+    bonus: "HIGHROLLER BONUS +50% Up to 500£",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
+    votes: 4915,
+    isMobile: true
+  },
 
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "Westace",
-  //   logo: "/westace.webp",
-  //   bonus: "300% up to €2,000 + 150 FS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "DaffSpin",
-  //   logo: "/daffspin.png",
-  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
-  //
+
+
   // {
   //   name: "Verywell",
   //   logo: "/verywell1.png",
@@ -66,15 +75,6 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 3951,
   //   isMobile:true
   // },
-  // {
-  //   name: "BetNinja",
-  //   logo: "/BetNinja.png",
-  //   bonus: "£1000 bonus + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
-
   // {
   //   name: "DaffSpin",
   //   logo: "/daffspin.png",
