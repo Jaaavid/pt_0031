@@ -89,8 +89,11 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
           </div>
         </div>
 
-        <div className="mb-4 text-center">
-          <div className="text-[20px] font-black uppercase leading-[1.3] tracking-[-0.02em] text-white sm:text-[24px]">
+        <div className="mb-4 rounded-[22px] border border-cyan-500/30 bg-[#1b2130] px-4 py-4 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] sm:px-5 sm:py-5">
+          <div className="text-[11px] font-extrabold uppercase tracking-[0.32em] text-[#86cde4] sm:text-xs">
+            Welcome Bonus
+          </div>
+          <div className="mt-3 text-[20px] font-black uppercase leading-[1.35] tracking-[-0.02em] text-white sm:text-[24px]">
             {casino.bonus}
           </div>
         </div>
