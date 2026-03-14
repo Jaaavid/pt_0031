@@ -48,13 +48,12 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-
   {
-    name: "BetNinja",
-    logo: "/BetNinja.png",
-    bonus: "£1000 bonus + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-    votes: 4915,
+    name: "ReveryPlay",
+    logo: "/reveryplay.svg",
+    bonus: "Up to €5,000 + 250 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
+    votes: 5872,
     isMobile: true
   },
   {
@@ -75,7 +74,14 @@ const casinosRawData: CasinoRawData[] = [
   },
 
 
-
+  // {
+  //   name: "BetNinja",
+  //   logo: "/BetNinja.png",
+  //   bonus: "£1000 bonus + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
   // {
   //   name: "BloodySlots",
   //   logo: "/bloodyslots.svg",
