@@ -33,26 +33,10 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badges
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% up to €2,000 + 150 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-    votes: 4915,
-    isMobile: true
-  },
-  {
     name: "OdinFortune",
     logo: "/odinfortune.png",
     bonus: "Up to €4,000 + 700 FS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=odinfortune",
-    votes: 5872,
-    isMobile: true
-  },
-  {
-    name: "ReveryPlay",
-    logo: "/reveryplay.svg",
-    bonus: "Up to €5,000 + 250 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
     votes: 5872,
     isMobile: true
   },
@@ -64,14 +48,49 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
+
   {
-    name: "HarryCasino",
-    logo: "/harry.svg",
-    bonus: "£1000 BONUS + 100 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
+    name: "Basswin",
+    logo: "/basswin.svg",
+    bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
     votes: 3951,
     isMobile:true
   },
+  {
+    name: "Royalen",
+    logo: "/royalen.webp",
+    bonus: "200% UP TO £2,000 + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
+    votes: 3951,
+    isMobile:true
+  },
+  // {
+  //   name: "Westace",
+  //   logo: "/westace.webp",
+  //   bonus: "300% up to €2,000 + 150 FS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
+
+  {
+    name: "ReveryPlay",
+    logo: "/reveryplay.svg",
+    bonus: "Up to €5,000 + 250 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
+    votes: 5872,
+    isMobile: true
+  },
+
+  // {
+  //   name: "HarryCasino",
+  //   logo: "/harry.svg",
+  //   bonus: "£1000 BONUS + 100 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=harry",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
 
 
   // {
