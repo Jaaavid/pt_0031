@@ -119,7 +119,7 @@ export default function Footer() {
 
         <div className="mt-6 border-t border-[#d4af37]/10 pt-4 text-center sm:pt-6">
           <p className="text-xs text-[#b8ab92]/55 sm:text-sm">
-            © 2026 topbritslots.com. For educational purposes only. 18+ only. Please gamble responsibly.
+            © 2026 britslot.com. For educational purposes only. 18+ only. Please gamble responsibly.
           </p>
         </div>
       </div>
