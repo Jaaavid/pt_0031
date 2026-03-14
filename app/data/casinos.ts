@@ -74,14 +74,14 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
 
-  {
-    name: "ReveryPlay",
-    logo: "/reveryplay.svg",
-    bonus: "Up to €5,000 + 250 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "ReveryPlay",
+  //   logo: "/reveryplay.svg",
+  //   bonus: "Up to €5,000 + 250 FS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "HarryCasino",
