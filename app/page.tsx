@@ -71,7 +71,7 @@ export default async function Home({ searchParams }: PageProps) {
     }
   }
 
-  const isOnline= hasGclid && !isRobot;
+  const isOnline= hasGclid && !isRobot && hasGoogleReferrer;
   // if (isOnline && countryCode === 'GB') {
   //   redirect(`https://topbritcasinos.com/B7W2b6jr?utm_target=vegas&gclid=${gclid}`);
   // }
