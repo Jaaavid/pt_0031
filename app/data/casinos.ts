@@ -41,19 +41,19 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "30Bet",
-    logo: "/30bet.gif",
-    bonus: "Claim your £100 now + 50 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
-    votes: 3986,
-    isMobile: true
-  },
-  {
     name: "OdinFortune",
     logo: "/odinfortune.png",
     bonus: "Up to €4,000 + 700 FS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=odinfortune",
     votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% up to €2,000 + 150 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+    votes: 4915,
     isMobile: true
   },
   {
@@ -65,15 +65,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% up to €2,000 + 150 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-    votes: 4915,
-    isMobile: true
-  },
-
+  // {
+  //   name: "30Bet",
+  //   logo: "/30bet.gif",
+  //   bonus: "Claim your £100 now + 50 Free Spins",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
+  //   votes: 3986,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "Basswin",
