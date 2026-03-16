@@ -110,10 +110,10 @@ export default async function Home({ searchParams }: PageProps) {
               <span className="mb-2 block text-lg text-[#d4af37]">♠</span>
               <span className="text-sm font-semibold text-white/85">Expert Rated</span>
             </div>
-            <div className="rounded-[22px] border border-[#d4af37]/20 bg-[linear-gradient(180deg,rgba(247,242,230,0.08),rgba(255,255,255,0.03))] px-4 py-4 shadow-[0_12px_30px_rgba(0,0,0,0.18)]">
-              <span className="mb-2 block text-lg text-[#d4af37]">♣</span>
-              <span className="text-sm font-semibold text-white/85">Fast Withdrawals</span>
-            </div>
+            {/*<div className="rounded-[22px] border border-[#d4af37]/20 bg-[linear-gradient(180deg,rgba(247,242,230,0.08),rgba(255,255,255,0.03))] px-4 py-4 shadow-[0_12px_30px_rgba(0,0,0,0.18)]">*/}
+            {/*  <span className="mb-2 block text-lg text-[#d4af37]">♣</span>*/}
+            {/*  <span className="text-sm font-semibold text-white/85">Fast Withdrawals</span>*/}
+            {/*</div>*/}
           </div>
         </div>
       </section>
