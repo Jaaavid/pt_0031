@@ -33,10 +33,10 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badges
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "OdinFortune",
-    logo: "/odinfortune.png",
-    bonus: "Up to €4,000 + 700 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=odinfortune",
+    name: "ReveryPlay",
+    logo: "/reveryplay.svg",
+    bonus: "Up to €5,000 + 250 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
     votes: 5872,
     isMobile: true
   },
@@ -49,10 +49,10 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "ReveryPlay",
-    logo: "/reveryplay.svg",
-    bonus: "Up to €5,000 + 250 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
+    name: "OdinFortune",
+    logo: "/odinfortune.png",
+    bonus: "Up to €4,000 + 700 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=odinfortune",
     votes: 5872,
     isMobile: true
   },
