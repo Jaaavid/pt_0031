@@ -33,11 +33,19 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badges
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% up to €2,000 + 150 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-    votes: 4915,
+    name: "ReveryPlay",
+    logo: "/reveryplay.svg",
+    bonus: "Up to €5,000 + 250 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "30Bet",
+    logo: "/30bet.gif",
+    bonus: "Claim your £100 now + 50 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
+    votes: 3986,
     isMobile: true
   },
   {
@@ -57,6 +65,15 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
+  {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% up to €2,000 + 150 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+    votes: 4915,
+    isMobile: true
+  },
+
 
   // {
   //   name: "Basswin",
@@ -66,14 +83,6 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 3951,
   //   isMobile:true
   // },
-  {
-    name: "ReveryPlay",
-    logo: "/reveryplay.svg",
-    bonus: "Up to €5,000 + 250 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
-    votes: 5872,
-    isMobile: true
-  },
 
 
   //
