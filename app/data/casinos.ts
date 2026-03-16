@@ -33,6 +33,14 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badges
 const casinosRawData: CasinoRawData[] = [
   {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+  {
     name: "OdinFortune",
     logo: "/odinfortune.png",
     bonus: "Up to €4,000 + 700 FS",
@@ -41,14 +49,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "Basswin",
-    logo: "/basswin.svg",
-    bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
-    votes: 3951,
-    isMobile:true
-  },
+  // {
+  //   name: "Basswin",
+  //   logo: "/basswin.svg",
+  //   bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
   {
     name: "ReveryPlay",
     logo: "/reveryplay.svg",
@@ -65,14 +73,7 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+
 
   //
   // {
