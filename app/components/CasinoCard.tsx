@@ -63,7 +63,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       onClick={handleCardClick}
       onKeyDown={handleCardKeyDown}
     >
-      {(badge || typeof rank === 'number') && (
+      {isOnline && (badge || typeof rank === 'number') && (
         <div className="px-1.5 pt-1.5 sm:px-2">
           <span className="inline-flex rounded-[12px] bg-[#1a1a1a] px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.14em] text-white/90">
             {badge ? badgeText : `Rank #${rank}`}
