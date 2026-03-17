@@ -13,7 +13,7 @@ export default function Logo({ className = "" }: LogoProps) {
           Casino Guide
         </span>
         <span className="block text-white font-bold text-lg tracking-tight">
-          UK Top Choices
+          UK Top Picks
         </span>
       </div>
     </div>

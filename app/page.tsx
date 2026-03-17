@@ -96,7 +96,8 @@ export default async function Home({ searchParams }: PageProps) {
             <span className="text-xs font-semibold uppercase tracking-[0.35em] text-[#d4af37] sm:text-sm">UK Card Room Picks</span>
           </div>
           <h1 className="mb-4 text-3xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
-            Discover the <span className="bg-gradient-to-r from-[#f7d774] via-[#d4af37] to-[#b98a18] bg-clip-text text-transparent">Best Casino Cards</span> in the UK
+            Explore the Top Casinos Available in the UK
+            {/*Discover the <span className="bg-gradient-to-r from-[#f7d774] via-[#d4af37] to-[#b98a18] bg-clip-text text-transparent">Best Casino Cards</span> in the UK*/}
           </h1>
           <p className="mx-auto mb-8 max-w-2xl text-base text-[#e7dbc2]/78 sm:text-lg">
             Hand-picked platforms presented in a richer casino-table style, with bold offers, trusted ratings, and a more premium card-first layout.
