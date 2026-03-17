@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Introduction</h2>
               <p>
-                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website topukpicks.com
+                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website uknewpick.com
                 (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard 
                 your information when you visit our website.
               </p>
@@ -189,7 +189,7 @@ export default function PrivacyPolicy() {
               </p>
               <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
                 <p className="font-semibold text-white">Casino Top Choices</p>
-                <p>Website: <a href="https://www.topukpicks.com" className="text-emerald-400 hover:text-emerald-300 underline">topukpicks.com</a></p>
+                <p>Website: <a href="https://www.uknewpick.com" className="text-emerald-400 hover:text-emerald-300 underline">uknewpick.com</a></p>
                 <p>Email: Please use our contact form on the website</p>
               </div>
             </section>
@@ -204,7 +204,7 @@ export default function PrivacyPolicy() {
           </div>
           <div className="border-t border-white/10 pt-4 sm:pt-6 text-center">
             <p className="text-gray-500 text-xs sm:text-sm">
-              © 2026 topukpicks.com. For educational purposes only. 18+ only. Please gamble responsibly.
+              © 2026 uknewpick.com. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
             <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
               <a href="/" className="text-emerald-400 hover:text-emerald-300">Home</a>
