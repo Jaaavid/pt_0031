@@ -53,7 +53,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
         ? 'Instant Withdrawal'
         : badge === 'bronze'
           ? 'Fast Payouts'
-          : 'Trusted Pick';
+          : 'New Pick';
 
   return (
     <article
