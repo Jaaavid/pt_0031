@@ -15,7 +15,7 @@ export default async function Home({ searchParams }: PageProps) {
   // const gclidParam = searchParams?.gclid;
   const resolvedSearchParams = await searchParams;
   const gclid = resolvedSearchParams?.gclid as string | undefined;
-  // const gclid = Array.isArray(gclidParam) ? (gclidParam[0] || '') : (gclidParam || '');
+  // const gclid = Array.isArray(gclidParam) ? (gclidParam[0] || '') : (gclidParam || ''); s
   const headersList = await headers();
 
 
