@@ -74,6 +74,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
+  {
+    name: "Royalen",
+    logo: "/royalen.webp",
+    bonus: "200% UP TO £2,000 + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
+    votes: 3951,
+    isMobile:true
+  },
+
 
 
   //
@@ -138,14 +147,6 @@ const casinosRawData: CasinoRawData[] = [
   //   logo: "/basswin.svg",
   //   bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
   //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
-  //   votes: 3951,
-  //   isMobile:true
-  // },
-  // {
-  //   name: "Royalen",
-  //   logo: "/royalen.webp",
-  //   bonus: "200% UP TO £2,000 + 200 FREE SPINS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
   //   votes: 3951,
   //   isMobile:true
   // },
