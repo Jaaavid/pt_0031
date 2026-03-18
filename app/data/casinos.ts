@@ -49,6 +49,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "PotterSlots",
+    logo: "/potterslots.svg",
+    bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
+    votes: 5872,
+    isMobile: true
+  },
+  {
     name: "VegasHero",
     logo: "/VegasHero.png",
     bonus: "100% UP TO €500 + 200 FREE SPINS",
@@ -58,14 +66,7 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "PotterSlots",
-    logo: "/potterslots.svg",
-    bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
-    votes: 5872,
-    isMobile: true
-  },
+
   {
     name: "Lizaro",
     logo: "/lizaro.png",
