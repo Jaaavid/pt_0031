@@ -81,7 +81,7 @@ export default async function Home({ searchParams }: PageProps) {
   // Filter non-mobile casinos for the main page
   const regularCasinos = casinos.filter(casino => !casino.isMobile);
   // Get first casino for exclusive offer popup (VegasHero)
-  const exclusiveCasino = casinos.find(casino => casino.name === 'VegasHero') || mobileCasinos[0];
+  const exclusiveCasino = casinos.find(casino => casino.name === 'DaytonaSpin') || mobileCasinos[0];
   
   return (
     <div className="min-h-screen bg-transparent">
