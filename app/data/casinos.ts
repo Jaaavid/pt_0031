@@ -35,7 +35,7 @@ const casinosRawData: CasinoRawData[] = [
   {
     name: "Westace",
     logo: "/westace.webp",
-    bonus: "300% up to €2,000 + 150 FS",
+    bonus: "300% UP TO €2,000 + 150 FS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
     votes: 4915,
     isMobile: true
@@ -43,7 +43,7 @@ const casinosRawData: CasinoRawData[] = [
   {
     name: "DaytonaSpin",
     logo: "/daytonaspin.svg",
-    bonus: "100% Up To 500£ + 50 FREE SPINS",
+    bonus: "100% UP TO 500£ + 50 FREE SPINS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daytona",
     votes: 5872,
     isMobile: true
