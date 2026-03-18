@@ -74,14 +74,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-  {
-    name: "Royalen",
-    logo: "/royalen.webp",
-    bonus: "200% UP TO £2,000 + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
-    votes: 3951,
-    isMobile:true
-  },
+  // {
+  //   name: "Royalen",
+  //   logo: "/royalen.webp",
+  //   bonus: "200% UP TO £2,000 + 200 FREE SPINS",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=royalen",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
 
 
 
