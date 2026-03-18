@@ -16,7 +16,7 @@ interface ExclusiveOfferPopupProps {
 
 export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '', countryCode }: ExclusiveOfferPopupProps) {
   const [isVisible, setIsVisible] = useState(false);
-  const casinoUrl = gclidValue ? `${casino.url}&gclid=${gclidValue}` : casino.url;
+  const casinoUrl = gclidValue ? `${casino.url}&gclid=${gclidValue}` : casino?.url;
 
   useEffect(() => {
     // Check if popup was already shown in this session
