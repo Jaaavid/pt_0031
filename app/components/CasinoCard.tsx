@@ -58,7 +58,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       : badge === 'silver'
         ? 'Instant Withdrawal'
         : badge === 'bronze'
-          ? 'Fast Payouts'
+          ? 'Fast Payouts & Big Bonuses'
           : 'New Pick';
 
   return (
@@ -68,7 +68,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
       {isOnline && (badge || typeof rank === 'number') && (
         <div className="px-1.5 pt-1.5 sm:px-2">
           <span className="inline-flex rounded-[12px] bg-[#1a1a1a] px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.14em] text-white/90">
-            {badge ? badgeText : `Fast Cashout`}
+            {badge ? badgeText : `Fast Cashouts`}
           </span>
         </div>
       )}

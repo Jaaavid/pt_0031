@@ -126,6 +126,12 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
           )}
           </div>
 
+          <div className="mb-3 flex justify-center">
+            <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/80">
+              Big Bonuses &amp; Instant Payouts
+            </span>
+          </div>
+
           <div className="flex items-center justify-center gap-2 mb-6">
             {renderStars(casino.rating)}
           </div>
@@ -137,7 +143,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
             onClick={handleClose}
             className="block w-full bg-gradient-to-r from-red-600 via-red-600 to-red-700 text-white font-extrabold py-3 px-6 rounded-xl text-center text-lg uppercase tracking-wide transition-all duration-300 shadow-lg hover:shadow-xl"
           >
-            PLAY NOW
+            CLAIM NOW
           </a>
         </div>
       </div>

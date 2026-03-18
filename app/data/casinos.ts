@@ -94,22 +94,7 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 3986,
   //   isMobile: true
   // },
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "PotterSlots",
-  //   logo: "/potterslots.svg",
-  //   bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+
 
   // {
   //   name: "OdinFortune",
@@ -130,14 +115,6 @@ const casinosRawData: CasinoRawData[] = [
   //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=reveryplay",
   //   votes: 5872,
   //   isMobile: true
-  // },
-  // {
-  //   name: "Basswin",
-  //   logo: "/basswin.svg",
-  //   bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=basswin",
-  //   votes: 3951,
-  //   isMobile:true
   // },
 
 
@@ -163,14 +140,6 @@ const casinosRawData: CasinoRawData[] = [
 
 
   // {
-  //   name: "BetNinja",
-  //   logo: "/BetNinja.png",
-  //   bonus: "£1000 bonus + 100 Free Spins",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=betninja",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
-  // {
   //   name: "BloodySlots",
   //   logo: "/bloodyslots.svg",
   //   bonus: "600% Bonus + 450 Free Spins",
@@ -186,14 +155,7 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 4915,
   //   isMobile: true
   // },
-  // {
-  //   name: "DaffSpin",
-  //   logo: "/daffspin.png",
-  //   bonus: "HIGHROLLER BONUS +50% Up to 500£",
-  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daff",
-  //   votes: 4915,
-  //   isMobile: true
-  // },
+
   // {
   //   name: "SpinShark",
   //   logo: "/spinshark.svg",
