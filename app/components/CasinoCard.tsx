@@ -13,21 +13,27 @@ interface CasinoCardProps {
 }
 
 export default function CasinoCard({ casino, rank, badge, isOnline = false }: CasinoCardProps) {
+  const paymentMethods = [
+    'Apple Pay',
+    'Google Pay',
+    'Revolut',
+    'Monzo',
+    'Crypto',
+    'Lloyds Bank',
+    'PayPal',
+    'Visa Debit',
+    'Mastercard Debit',
+    'Skrill',
+    'Neteller',
+    'Paysafecard',
+    'Bank Transfer'
+  ];
+
   const handleCasinoClick = () => {
     if (casino.isMobile) {
       track('Casino Click', {
         casino: casino.name
       });
-    }
-  };
-  const handleCardClick = () => {
-    handleCasinoClick();
-    window.open(casino.url, '_blank', 'noopener,noreferrer');
-  };
-  const handleCardKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      handleCardClick();
     }
   };
 
@@ -57,11 +63,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
 
   return (
     <article
-      className="cursor-pointer rounded-[28px] border border-white/10 bg-gray-900 p-2.5 text-white shadow-[0_18px_50px_rgba(0,0,0,0.45)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_22px_60px_rgba(0,0,0,0.52)] sm:p-3"
-      role="link"
-      tabIndex={0}
-      onClick={handleCardClick}
-      onKeyDown={handleCardKeyDown}
+      className="cursor-default rounded-[28px] border border-white/10 bg-gray-900 p-2.5 text-white shadow-[0_18px_50px_rgba(0,0,0,0.45)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_22px_60px_rgba(0,0,0,0.52)] sm:p-3"
     >
       {isOnline && (badge || typeof rank === 'number') && (
         <div className="px-1.5 pt-1.5 sm:px-2">
@@ -97,6 +99,21 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
             {casino.bonus}
           </div>
         </div>
+
+        {isOnline && (
+          <div className="mb-4 flex justify-center">
+            <div className="flex max-w-full gap-2 overflow-x-auto no-scrollbar">
+              {paymentMethods.map((method) => (
+                <span
+                  key={method}
+                  className="whitespace-nowrap rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] font-medium text-white/80"
+                >
+                  {method}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
         <a
           href={casino.url}
