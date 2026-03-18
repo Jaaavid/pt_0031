@@ -33,11 +33,11 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badges
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% UP TO €2,000 + 150 FS",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
-    votes: 4915,
+    name: "PotterSlots",
+    logo: "/potterslots.svg",
+    bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
+    votes: 5872,
     isMobile: true
   },
   {
@@ -48,14 +48,7 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-  {
-    name: "PotterSlots",
-    logo: "/potterslots.svg",
-    bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
-    votes: 5872,
-    isMobile: true
-  },
+
   {
     name: "VegasHero",
     logo: "/VegasHero.png",
@@ -65,7 +58,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 6440,
     isMobile: true
   },
-
+  {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% UP TO €2,000 + 150 FS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
+    votes: 4915,
+    isMobile: true
+  },
 
   {
     name: "Lizaro",
