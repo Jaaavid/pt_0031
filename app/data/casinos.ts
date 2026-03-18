@@ -33,29 +33,11 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badges
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "PotterSlots",
-    logo: "/potterslots.svg",
-    bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
-    votes: 5872,
-    isMobile: true
-  },
-  {
     name: "DaytonaSpin",
     logo: "/daytonaspin.svg",
     bonus: "100% UP TO 500£ + 50 FREE SPINS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=daytona",
     votes: 5872,
-    isMobile: true
-  },
-
-  {
-    name: "VegasHero",
-    logo: "/VegasHero.png",
-    bonus: "100% UP TO €500 + 200 FREE SPINS",
-    // bonus: "125% up to £1,250 + 250 Free Spins",
-    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=vegas",
-    votes: 6440,
     isMobile: true
   },
   {
@@ -64,6 +46,15 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "300% UP TO €2,000 + 150 FS",
     url: "https://topbritcasinos.com/P8qHrrKS?utm_target=westace",
     votes: 4915,
+    isMobile: true
+  },
+  {
+    name: "VegasHero",
+    logo: "/VegasHero.png",
+    bonus: "100% UP TO €500 + 200 FREE SPINS",
+    // bonus: "125% up to £1,250 + 250 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=vegas",
+    votes: 6440,
     isMobile: true
   },
 
@@ -75,6 +66,23 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
+
+  {
+    name: "30Bet",
+    logo: "/30bet.gif",
+    bonus: "Claim your £100 now + 50 Free Spins",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=30bet",
+    votes: 3986,
+    isMobile: true
+  },
+  // {
+  //   name: "PotterSlots",
+  //   logo: "/potterslots.svg",
+  //   bonus: "Up to €2,000 + 200 FS + 1 Magic Wheel Spin",
+  //   url: "https://topbritcasinos.com/P8qHrrKS?utm_target=potterslots",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
   // {
   //   name: "Royalen",
   //   logo: "/royalen.webp",
