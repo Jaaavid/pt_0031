@@ -66,7 +66,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/P8qHrrKS?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
 
 
   //
