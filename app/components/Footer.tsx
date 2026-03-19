@@ -1,125 +1,132 @@
+import Image from 'next/image';
 import Logo from './Logo';
 
 export default function Footer() {
+  const navLinks = [
+    { name: 'Início', href: '/' },
+    { name: 'Sobre', href: '/#sobre' },
+    { name: 'Privacidade', href: '/privacy' },
+    { name: 'Termos', href: '/terms' },
+    { name: 'Contacto', href: '/#contacto' },
+    { name: 'Responsabilidade', href: '/#responsabilidade' },
+    { name: 'Cookies', href: '/#cookies' },
+  ];
+
   return (
-    <footer id="contact" className="border-t border-[#d4af37]/15 bg-[#07140f]/95 py-6 sm:py-8 lg:py-12">
-      <div className="container mx-auto px-4 max-w-6xl">
-        <div className="flex justify-center mb-6 sm:mb-8">
-          <Logo className="rounded-full border border-[#d4af37]/20 bg-black/15 px-4 py-2" />
+    <footer id="contacto" className="border-t border-blue-500/10 bg-[#080e1a] py-8 sm:py-12 lg:py-16">
+      <div className="container mx-auto max-w-6xl px-4">
+        <div className="mb-8 flex justify-center sm:mb-10">
+          <Logo className="rounded-full border border-blue-500/15 bg-black/20 px-4 py-2" />
         </div>
 
-        <div className="mb-6 grid grid-cols-2 gap-4 rounded-[28px] border border-[#d4af37]/12 bg-white/[0.03] p-5 sm:mb-8 sm:gap-8 sm:p-8 sm:grid-cols-4">
-          <div>
-            <h5 className="mb-2 text-sm font-semibold text-white sm:mb-3 sm:text-base">Quick Links</h5>
-            <ul className="space-y-1 text-xs text-[#d9cfbc]/75 sm:space-y-2 sm:text-sm">
-              <li><a href="#" className="hover:text-[#f1d987]">Home</a></li>
-              <li><a href="#casinos" className="hover:text-[#f1d987]">Casinos</a></li>
-              {/*<li><a href="#guide" className="hover:text-purple-400">Guide</a></li>*/}
-            </ul>
-          </div>
-          <div>
-            <h5 className="mb-2 text-sm font-semibold text-white sm:mb-3 sm:text-base">Legal</h5>
-            <ul className="space-y-1 text-xs text-[#d9cfbc]/75 sm:space-y-2 sm:text-sm">
-              <li><a href="/privacy" className="hover:text-[#f1d987]">Privacy</a></li>
-              <li><a href="/terms" className="hover:text-[#f1d987]">Terms</a></li>
-              <li><a href="#about" className="hover:text-[#f1d987]">About Us</a></li>
-            </ul>
-          </div>
-          <div className="col-span-2">
-            <h5 className="mb-2 text-sm font-semibold text-white sm:mb-3 sm:text-base">Disclaimer</h5>
-            <p className="text-xs leading-relaxed text-[#d9cfbc]/75 sm:text-sm">
-              This is an information-based comparison website. All casinos listed are licensed 
-              by the UK Gambling Commission. Gambling should be fun, not a way to make money. 
-              Only gamble with money you can afford to lose.
-            </p>
-          </div>
-        </div>
-        
-        <div className="mt-6 sm:mt-10 flex flex-col items-center gap-4">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#d4af37] sm:text-sm">
-            Responsible Gambling
+        <p className="mx-auto mb-8 max-w-2xl text-center text-sm leading-relaxed text-white/50 sm:text-base">
+          Plataforma informativa independente focada na análise e comparação de casinos online
+          autorizados em Portugal. O nosso objetivo é disponibilizar conteúdos claros, imparciais
+          e educativos sobre operadores licenciados, promoções e características de cada plataforma.
+        </p>
+
+        <div id="responsabilidade" className="mb-8 rounded-2xl border border-amber-500/15 bg-amber-500/5 p-5 sm:mb-10 sm:p-6">
+          <h5 className="mb-3 text-center text-sm font-bold uppercase tracking-wider text-amber-400">
+            Jogo Responsável
+          </h5>
+          <p className="mb-3 text-center text-xs leading-relaxed text-white/55 sm:text-sm">
+            18+. Jogue de forma responsável. O jogo pode causar dependência.
+            Se precisar de apoio ou aconselhamento, contacte:
           </p>
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
-            <div className="rounded-2xl border border-[#d4af37]/15 bg-white/[0.03] px-3 py-2">
-              <svg width="48" height="48" viewBox="0 0 48 48" aria-label="18+ icon" role="img" className="w-10 h-10 text-slate-900">
-                <circle cx="24" cy="24" r="23" fill="#d9d9d9" />
-                <text x="24" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#000">
-                  18+
-                </text>
-              </svg>
-            </div>
-            <a 
-              href="https://www.gamstop.co.uk" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="rounded-2xl border border-[#d4af37]/15 bg-white/[0.03] px-4 py-3 transition-colors hover:border-[#f1d987]/60"
-              aria-label="Visit GamStop"
-            >
-              <svg width="180" height="60" viewBox="0 0 180 60" role="img" aria-label="GAMSTOP">
-                <rect x="1" y="1" width="178" height="58" rx="10" fill="none" stroke="rgba(255,255,255,0.2)" />
-                <rect x="10" y="10" width="70" height="30" rx="6" fill="#6fc0e4" />
-                <rect x="80" y="10" width="90" height="30" rx="6" fill="#111" />
-                <text x="45" y="31" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="800" fill="#000">GAM</text>
-                <text x="125" y="31" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="800" fill="#fff">STOP</text>
-                <text x="90" y="48" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="12" fontWeight="700" fill="#fff">ONLINE</text>
-              </svg>
-            </a>
-            <a 
-              href="https://www.gambleaware.org" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="rounded-2xl border border-[#d4af37]/15 bg-white/[0.03] px-4 py-3 transition-colors hover:border-[#f1d987]/60"
-              aria-label="Visit GambleAware"
-            >
-              <svg width="220" height="42" viewBox="0 0 320 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Safer Gambling">
-                <g clipPath="url(#clip0_footer)">
-                  <path d="M0.924805 21.928C0.924805 7.54771 7.26436 0.300049 17.2649 0.300049C24.1859 0.300049 29.4187 3.63627 30.8703 11.1735L31.1028 12.3835L25.1723 13.6489L24.9397 12.558C23.833 7.49614 20.986 5.54042 17.1486 5.54042C11.7393 5.54042 7.43678 10.2016 7.43678 21.5313C7.43678 32.2302 11.3343 36.7169 16.7998 36.7169C20.6973 36.7169 25.2324 34.7056 25.2324 27.6285V26.4226H16.6835V21.4163H31.163V41.263H25.9863L25.6374 36.3718C23.7167 40.3387 19.9395 41.9533 15.5206 41.9533C6.68293 41.9454 0.924805 34.9873 0.924805 21.928Z" fill="white"/>
-                  <path d="M53.486 38.4941C51.6816 40.3903 49.2998 41.8898 45.4624 41.9453C39.9969 41.9453 36.4482 38.3195 36.4482 33.6623C36.4482 28.6004 40.6947 26.125 44.4158 25.0897L53.4299 22.5587V21.5234C53.4299 18.3022 51.3929 16.6916 48.1971 16.6916C45.2298 16.6916 42.8479 18.5323 41.8014 20.603L41.6249 20.9481L37.0297 18.5323L37.3224 17.957C38.6015 15.3666 42.1502 11.8003 48.7183 11.8003C55.2865 11.8003 59.4767 15.081 59.4767 21.0037V36.1337C59.4767 37.5698 59.5369 39.4699 59.8256 40.7354L59.9419 41.2551H53.8951L53.8349 40.9655C53.6585 40.1602 53.5422 39.3549 53.486 38.4941ZM47.0302 37.3992C49.7048 37.3992 52.0906 35.8441 53.4259 34.178V26.9303L47.1465 28.8305C44.7646 29.5763 42.6675 30.7862 42.6675 33.2616C42.6675 35.737 44.3556 37.4032 47.0302 37.4032V37.3992Z" fill="white"/>
-                  <path d="M94.5909 16.9812C92.209 16.9812 89.7069 18.5918 88.3114 19.9723V41.2551H82.2646V21.4084C82.2646 18.4728 80.7529 16.9773 77.8458 16.9773C75.4639 16.9773 72.9618 18.5879 71.5664 19.9684V41.2512H65.5195V12.4946H71.2777V15.6602C73.4871 13.3594 76.6268 11.8043 79.8828 11.8043C83.9528 11.8043 86.3947 13.645 87.5576 16.1759C89.767 13.5855 93.1393 11.8043 96.6279 11.8043C102.619 11.8043 105.061 15.7753 105.061 20.0874V41.2551H99.0137V21.4084C99.0137 18.4728 97.502 16.9773 94.5949 16.9773L94.5909 16.9812Z" fill="white"/>
-                  <path d="M117.443 38.6091L116.861 41.255H111.745V0.990234H117.791V14.8548C119.536 12.8991 122.21 11.8042 125.001 11.8042C131.629 11.8042 136.108 16.6955 136.108 26.4741C136.108 36.2527 131.397 41.9493 124.769 41.9493C121.801 41.9493 119.071 40.7393 117.443 38.613V38.6091ZM123.606 37.1135C127.038 37.1135 129.945 34.0074 129.945 26.6447C129.945 19.282 126.922 16.6915 123.489 16.6915C121.164 16.6915 119.243 17.8419 117.791 19.3375V34.3525C119.303 35.9076 121.28 37.1135 123.606 37.1135Z" fill="white"/>
-                  <path d="M141.105 0.990234H147.152V41.255H141.105V0.990234Z" fill="white"/>
-                  <path d="M152.501 27.2795C152.501 18.1912 157.096 11.8043 165.12 11.8043C170.762 11.8043 176.688 15.1405 176.688 25.4944V28.1959H158.432V28.541C158.432 34.1225 161.399 37.2287 165.348 37.2287C167.907 37.2287 170.06 36.1933 171.512 33.6029L171.86 32.9681L176.628 34.9834L176.339 35.5586C174.186 39.8151 170.349 41.9454 165.176 41.9454C157.85 41.9454 152.501 36.824 152.501 27.2755V27.2795ZM170.99 24.2289V23.8243C170.99 18.5878 168.199 16.6321 165.12 16.6321C162.04 16.6321 159.013 18.933 158.492 24.2249H170.994L170.99 24.2289Z" fill="white"/>
-                  <path d="M192.736 0.990479H201.517L213.029 41.2553H206.573L203.722 30.6714H190.233L187.382 41.2553H181.275L192.736 0.990479ZM202.331 25.7246L196.982 5.9373L191.633 25.7246H202.331Z" fill="#EB4A00"/>
-                  <path d="M211.514 12.4945H217.561L222.328 33.0315L227.621 12.4945H233.319L238.496 33.0315L243.44 12.4945H248.966L241.463 41.2551H235.472L230.24 20.7775L224.947 41.2551H219.016L211.514 12.4945Z" fill="#EB4A00"/>
-                  <path d="M266.809 38.4941C265.005 40.3903 262.623 41.8898 258.786 41.9453C253.32 41.9453 249.771 38.3195 249.771 33.6623C249.771 28.6004 254.014 26.125 257.739 25.0897L266.753 22.5587V21.5234C266.753 18.3022 264.716 16.6916 261.52 16.6916C258.557 16.6916 256.171 18.5323 255.125 20.603L254.952 20.9481L250.357 18.5323L250.65 17.957C251.929 15.3666 255.477 11.8003 262.046 11.8003C268.614 11.8003 272.804 15.081 272.804 21.0037V36.1337C272.804 37.5698 272.864 39.4699 273.153 40.7354L273.269 41.2551H267.222L267.162 40.9655C266.99 40.1602 266.873 39.3549 266.813 38.4941H266.809ZM260.357 37.3992C263.032 37.3992 265.418 35.8441 266.753 34.178V26.9303L260.474 28.8305C258.088 29.5763 255.995 30.7862 255.995 33.2616C255.995 35.737 257.683 37.4032 260.357 37.4032V37.3992Z" fill="#EB4A00"/>
-                  <path d="M278.67 12.4945H284.312V17.9015C288.15 13.4704 291.582 12.1493 294.489 12.0898V17.6714C290.419 17.6714 287.219 19.9167 284.721 22.158V41.255H278.674V12.4945H278.67Z" fill="#EB4A00"/>
-                  <path d="M295.123 27.2795C295.123 18.1912 299.718 11.8043 307.742 11.8043C313.383 11.8043 319.314 15.1405 319.314 25.4944V28.1959H301.057V28.541C301.057 34.1225 304.024 37.2287 307.978 37.2287C310.536 37.2287 312.69 36.1933 314.141 33.6029L314.49 32.9681L319.258 34.9834L318.969 35.5586C316.816 39.8151 312.978 41.9454 307.806 41.9454C300.48 41.9454 295.131 36.824 295.131 27.2755L295.123 27.2795ZM313.612 24.2289V23.8243C313.612 18.5878 310.821 16.6321 307.738 16.6321C304.654 16.6321 301.631 18.933 301.109 24.2249H313.612V24.2289Z" fill="#EB4A00"/>
-                </g>
-                <defs>
-                  <clipPath id="clip0_footer">
-                    <rect width="318.385" height="41.6453" fill="white" transform="translate(0.924805 0.300049)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
-            <a 
-              href="https://www.gamcare.org.uk" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="rounded-2xl border border-[#d4af37]/15 bg-white/[0.03] px-4 py-3 transition-colors hover:border-[#f1d987]/60"
-              aria-label="Visit GamCare"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="GamCare">
-                <defs>
-                  <linearGradient id="gc_footer" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#10b981"/>
-                    <stop offset="60%" stopColor="#14b8a6"/>
-                    <stop offset="100%" stopColor="#06b6d4"/>
-                  </linearGradient>
-                </defs>
-                <rect x="1" y="1" width="218" height="54" rx="12" fill="none" stroke="rgba(255,255,255,0.14)"/>
-                <g transform="translate(14, 14)">
-                  <path d="M14 24c-6.2-4.1-10-8.1-10-13 0-3.6 2.9-6.5 6.5-6.5 2.3 0 4.4 1.2 5.5 3.1 1.1-1.9 3.2-3.1 5.5-3.1C25.1 4.5 28 7.4 28 11c0 4.9-3.8 8.9-10 13l-2 1.3-2-1.3z" fill="url(#gc_footer)"/>
-                </g>
-                <text x="58" y="35" fontFamily="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fontSize="22" fontWeight="800" fill="#ffffff">GamCare</text>
-              </svg>
-            </a>
-          </div>
+          <ul className="space-y-1.5 text-center text-xs text-white/55 sm:text-sm">
+            <li>SICAD (Serviço de Intervenção nos Comportamentos Aditivos e nas Dependências)</li>
+            <li>Linha Vida — 1414</li>
+            <li>Jogadores Anónimos</li>
+          </ul>
         </div>
 
-        <div className="mt-6 border-t border-[#d4af37]/10 pt-4 text-center sm:pt-6">
-          <p className="text-xs text-[#b8ab92]/55 sm:text-sm">
-            © 2026 royalukspins.com. For educational purposes only. 18+ only. Please gamble responsibly.
+        <nav className="mb-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 sm:mb-10 sm:gap-x-6">
+          {navLinks.map((link, i) => (
+            <span key={link.name} className="flex items-center gap-5 sm:gap-6">
+              <a
+                href={link.href}
+                className="text-xs font-medium text-white/50 transition-colors hover:text-blue-400 sm:text-sm"
+              >
+                {link.name}
+              </a>
+              {i < navLinks.length - 1 && (
+                <span className="hidden text-white/15 sm:inline">|</span>
+              )}
+            </span>
+          ))}
+        </nav>
+
+        <div className="mb-8 flex items-center justify-center gap-5 sm:mb-10">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/50 transition-colors hover:border-blue-500/30 hover:text-blue-400"
+            aria-label="Facebook"
+          >
+            <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/50 transition-colors hover:border-blue-500/30 hover:text-blue-400"
+            aria-label="Instagram"
+          >
+            <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C16.67.014 16.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a
+            href="https://x.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/50 transition-colors hover:border-blue-500/30 hover:text-blue-400"
+            aria-label="X (Twitter)"
+          >
+            <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+
+        {/* Institutional Partners */}
+        <div className="mb-8 flex flex-wrap items-center justify-center gap-6 sm:mb-10 sm:gap-10">
+          <a
+            href="https://www.srij.turismodeportugal.pt/pt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center rounded-2xl border border-white/8 bg-white/[0.04] px-5 py-3 transition-colors hover:border-blue-500/25"
+            aria-label="SRIJ - Serviço de Regulação e Inspeção de Jogos"
+          >
+            <Image src="/srij-logo.webp" alt="SRIJ" width={120} height={48} className="h-10 w-auto object-contain sm:h-12" />
+          </a>
+          <a
+            href="https://www.icad.pt/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center rounded-2xl border border-white/8 bg-white/[0.04] px-5 py-3 transition-colors hover:border-blue-500/25"
+            aria-label="ICAD - Instituto para os Comportamentos Aditivos e as Dependências"
+          >
+            <Image src="/icad-logo.webp" alt="ICAD" width={120} height={48} className="h-10 w-auto object-contain sm:h-12" />
+          </a>
+          <a
+            href="https://jogoresponsavel.pt/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center rounded-2xl border border-white/8 bg-white/[0.04] px-5 py-3 transition-colors hover:border-blue-500/25"
+            aria-label="Jogo Responsável"
+          >
+            <svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg" className="h-10 w-auto sm:h-12">
+              <rect width="200" height="50" rx="6" fill="transparent"/>
+              <text x="100" y="22" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="15" fontWeight="800" fill="#22c55e">JOGO</text>
+              <text x="100" y="40" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="12" fontWeight="700" fill="#ffffff" opacity="0.7">RESPONSÁVEL</text>
+            </svg>
+          </a>
+        </div>
+
+        <div className="border-t border-white/5 pt-6 text-center">
+          <p className="text-xs text-white/35 sm:text-sm">
+            © 2026 GuiaCasinosPT. Plataforma independente dedicada à análise e comparação de casinos online licenciados em Portugal.
+          </p>
+          <p className="mt-2 text-[11px] text-white/25 sm:text-xs">
+            18+ | Conteúdo exclusivo para adultos | Jogue com responsabilidade | Destinado apenas a residentes em Portugal
           </p>
         </div>
       </div>

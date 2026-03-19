@@ -1,0 +1,5 @@
+<svg viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="80" rx="12" fill="#1a1a1a"/>
+  <circle cx="36" cy="40" r="16" fill="#FFD700"/>
+  <text x="64" y="53" font-family="Arial Black, Impact, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" letter-spacing="-1">bwin</text>
+</svg>

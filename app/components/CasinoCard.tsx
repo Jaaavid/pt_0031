@@ -13,38 +13,20 @@ interface CasinoCardProps {
 }
 
 export default function CasinoCard({ casino, rank, badge, isOnline = false }: CasinoCardProps) {
-  const paymentMethods = [
-    'Apple Pay',
-    'Google Pay',
-    'Revolut',
-    'Monzo',
-    'Crypto',
-    'Lloyds Bank',
-    'PayPal',
-    'Visa Debit',
-    'Mastercard Debit',
-    'Skrill',
-    'Neteller',
-    'Paysafecard',
-    'Bank Transfer'
-  ];
-
   const handleCasinoClick = () => {
     if (casino.isMobile) {
-      track('Casino Click', {
-        casino: casino.name
-      });
+      track('Casino Click', { casino: casino.name });
     }
   };
 
   const renderLogo = () => {
     if (typeof casino.logo === 'string' && casino.logo.startsWith('/')) {
       return (
-        <Image 
-          src={casino.logo} 
-          alt={`${casino.name} Casino`} 
-          width={260} 
-          height={180} 
+        <Image
+          src={casino.logo}
+          alt={`${casino.name} Casino`}
+          width={260}
+          height={180}
           className="h-full w-full object-contain"
         />
       );
@@ -52,68 +34,45 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
     return logos[casino.logo as keyof typeof logos];
   };
 
-  const badgeText =
-    badge === 'gold'
-      ? 'High Roller Pick'
-      : badge === 'silver'
-        ? 'Instant Withdrawal'
-        : badge === 'bronze'
-          ? 'Fast Payouts & Big Bonuses'
-          : 'New Pick';
-
   return (
-    <article
-      className="cursor-default rounded-[28px] border border-white/10 bg-gray-900 p-2.5 text-white shadow-[0_18px_50px_rgba(0,0,0,0.45)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_22px_60px_rgba(0,0,0,0.52)] sm:p-3"
-    >
-      {isOnline && (badge || typeof rank === 'number') && (
-        <div className="px-1.5 pt-1.5 sm:px-2">
-          <span className="inline-flex rounded-[12px] bg-[#1a1a1a] px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.14em] text-white/90">
-            {badge ? badgeText : `Fast Cashouts`}
+    <article className="mx-auto w-full max-w-lg rounded-[28px] border border-white/10 bg-[#111b2e] p-3 text-white shadow-[0_20px_60px_rgba(0,0,0,0.5)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_24px_70px_rgba(0,0,0,0.6)] sm:p-4">
+      {casino.badge && (
+        <div className="px-2 pt-1">
+          <span className="inline-flex rounded-full bg-blue-500/15 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-400">
+            {casino.badge}
           </span>
         </div>
       )}
 
-      <div className="px-1.5 pb-1.5 pt-3 sm:px-2 sm:pb-2">
-        <div className="mb-4 flex items-center justify-between gap-3">
-          <div className="flex min-h-[76px] flex-1 items-center">
+      <div className="px-2 pb-2 pt-4">
+        <div className="mb-5 flex items-center justify-between gap-4">
+          <div className="flex min-h-[80px] flex-1 items-center">
             <div className="h-16 w-44 sm:h-20 sm:w-52 [&>img]:h-full [&>img]:w-full [&>img]:object-contain [&>svg]:h-full [&>svg]:w-full">
               {renderLogo()}
             </div>
           </div>
 
           <div className="shrink-0 text-right">
-            <div className="text-[32px] font-black leading-none tracking-[-0.05em] text-white sm:text-[38px]">
+            <div className="text-[36px] font-black leading-none tracking-[-0.05em] text-white sm:text-[42px]">
               {casino.rating.toFixed(1)}
             </div>
-            <div className="mt-1.5 text-sm leading-none tracking-[0.12em] text-[#b22f2f] sm:text-base">
+            <div className="mt-1.5 text-sm leading-none tracking-[0.12em] text-amber-400 sm:text-base">
               ★★★★★
+            </div>
+            <div className="mt-1 text-xs text-white/50">
+              {casino.votes.toLocaleString('pt-PT')} votos
             </div>
           </div>
         </div>
 
-        <div className="mb-4 rounded-[22px] border border-cyan-500/30 bg-[#1b2130] px-4 py-4 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] sm:px-5 sm:py-5">
-          <div className="text-[11px] font-extrabold uppercase tracking-[0.32em] text-[#86cde4] sm:text-xs">
-            Welcome Bonus
+        <div className="mb-5 rounded-[22px] border border-blue-500/25 bg-[#0d1526] px-4 py-5 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] sm:px-5">
+          <div className="text-[11px] font-extrabold uppercase tracking-[0.32em] text-blue-300 sm:text-xs">
+            Bónus de Boas-Vindas
           </div>
           <div className="mt-3 text-[20px] font-black uppercase leading-[1.35] tracking-[-0.02em] text-white sm:text-[24px]">
             {casino.bonus}
           </div>
         </div>
-
-        {isOnline && (
-          <div className="mb-4 flex justify-center">
-            <div className="flex max-w-full gap-2 overflow-x-auto no-scrollbar">
-              {paymentMethods.map((method) => (
-                <span
-                  key={method}
-                  className="whitespace-nowrap rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] font-medium text-white/80"
-                >
-                  {method}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
 
         <a
           href={casino.url}
@@ -123,17 +82,16 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
             event.stopPropagation();
             handleCasinoClick();
           }}
-          className="flex w-full items-center justify-center rounded-[18px] border border-[#c43f3c] bg-[linear-gradient(180deg,#c92829_0%,#a41016_100%)] px-4 py-3 text-center text-[20px] font-black text-white shadow-[0_12px_28px_rgba(155,18,24,0.24)] transition-transform duration-200 hover:scale-[1.01] sm:text-[22px]"
+          className="flex w-full items-center justify-center rounded-[18px] border border-blue-600 bg-[linear-gradient(180deg,#3b82f6_0%,#2563eb_100%)] px-4 py-3.5 text-center text-[20px] font-black text-white shadow-[0_12px_28px_rgba(37,99,235,0.3)] transition-transform duration-200 hover:scale-[1.01] sm:text-[22px]"
         >
-          {isOnline ? 'Claim Now' : 'Play Now'}
+          Ver detalhes
           <span className="ml-2 text-[0.9em] leading-none">→</span>
         </a>
 
-        <div className="mt-3 text-center text-xs font-medium text-white/65 sm:text-sm">
-          T&amp;Cs apply.
+        <div className="mt-3 text-center text-xs font-medium text-white/50 sm:text-sm">
+          Aplicam-se T&amp;C. 18+. Jogue com responsabilidade.
         </div>
       </div>
     </article>
   );
 }
-

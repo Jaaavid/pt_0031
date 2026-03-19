@@ -1,221 +1,183 @@
 import Header from '../components/Header';
-import Logo from '../components/Logo';
+import Footer from '../components/Footer';
 
 export const metadata = {
-  title: "Privacy Policy - Casino Top Choices",
-  description: "Privacy Policy for Casino Top Choices. Learn how we collect, use, and protect your personal information.",
+  title: "Política de Privacidade - Guia Casinos Portugal",
+  description: "Política de Privacidade do Guia Casinos Portugal. Saiba como recolhemos, utilizamos e protegemos os seus dados pessoais.",
 };
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-transparent">
       <Header />
-      
-      <main className="container mx-auto px-4 py-8 sm:py-12 lg:py-16 max-w-4xl">
-        <div className="bg-zinc-900 rounded-3xl p-6 sm:p-8 lg:p-12 border border-white/10 shadow-lg">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6 sm:mb-8">
-            Privacy Policy
+
+      <main className="container mx-auto max-w-4xl px-4 py-8 sm:py-12 lg:py-16">
+        <div className="rounded-2xl border border-white/10 bg-[#111b2e] p-6 shadow-lg sm:p-8 lg:p-12">
+          <h1 className="mb-6 text-3xl font-extrabold text-white sm:mb-8 sm:text-4xl lg:text-5xl">
+            Política de Privacidade
           </h1>
-          
-          <div className="text-gray-400 text-sm sm:text-base leading-relaxed space-y-6">
-            <p className="text-gray-500 italic">
-              Last updated: {new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
+
+          <div className="space-y-6 text-sm leading-relaxed text-white/55 sm:text-base">
+            <p className="italic text-white/35">
+              Última atualização: {new Date().toLocaleDateString('pt-PT', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Introduction</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">1. Introdução</h2>
               <p>
-                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website royalukspins.com
-                (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard 
-                your information when you visit our website.
+                Bem-vindo ao Guia Casinos Portugal (&quot;nós&quot;, &quot;nosso&quot; ou &quot;nos&quot;). Operamos este website
+                (o &quot;Serviço&quot;). Esta Política de Privacidade explica como recolhemos, utilizamos, divulgamos
+                e protegemos as suas informações quando visita o nosso website.
               </p>
-              <p>
-                By using our Service, you agree to the collection and use of information in accordance with 
-                this policy. If you do not agree with our policies and practices, do not use our Service.
+              <p className="mt-3">
+                Ao utilizar o nosso Serviço, concorda com a recolha e utilização de informações de acordo
+                com esta política. Se não concordar com as nossas políticas e práticas, não utilize o nosso Serviço.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Information We Collect</h2>
-              
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-200 mb-3 mt-4">2.1 Information You Provide</h3>
-              <p>
-                We may collect information that you voluntarily provide to us when you:
-              </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Contact us through our website</li>
-                <li>Subscribe to our newsletter</li>
-                <li>Participate in surveys or promotions</li>
-                <li>Interact with our Service in other ways</li>
-              </ul>
-              <p className="mt-3">
-                This information may include your name, email address, and any other information you choose to provide.
-              </p>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">2. Informações que Recolhemos</h2>
 
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-200 mb-3 mt-4">2.2 Automatically Collected Information</h3>
+              <h3 className="mb-3 mt-4 text-lg font-semibold text-white/80 sm:text-xl">2.1 Informações Fornecidas por Si</h3>
               <p>
-                When you visit our Service, we may automatically collect certain information about your device, 
-                including:
+                Podemos recolher informações que nos fornece voluntariamente quando:
               </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>IP address</li>
-                <li>Browser type and version</li>
-                <li>Operating system</li>
-                <li>Pages you visit and time spent on pages</li>
-                <li>Referring website addresses</li>
-                <li>Date and time of your visit</li>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Nos contacta através do website</li>
+                <li>Se inscreve na nossa newsletter</li>
+                <li>Participa em inquéritos ou promoções</li>
+                <li>Interage com o nosso Serviço de outras formas</li>
+              </ul>
+
+              <h3 className="mb-3 mt-4 text-lg font-semibold text-white/80 sm:text-xl">2.2 Informações Recolhidas Automaticamente</h3>
+              <p>
+                Quando visita o nosso Serviço, podemos recolher automaticamente determinadas informações sobre o seu dispositivo, incluindo:
+              </p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Endereço IP</li>
+                <li>Tipo e versão do navegador</li>
+                <li>Sistema operativo</li>
+                <li>Páginas visitadas e tempo de permanência</li>
+                <li>Endereços de websites de referência</li>
+                <li>Data e hora da visita</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">3. How We Use Your Information</h2>
-              <p>We use the information we collect for various purposes, including:</p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>To provide, maintain, and improve our Service</li>
-                <li>To analyze how our Service is used</li>
-                <li>To send you newsletters, marketing communications, and updates (with your consent)</li>
-                <li>To respond to your inquiries and provide customer support</li>
-                <li>To detect, prevent, and address technical issues</li>
-                <li>To comply with legal obligations</li>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">3. Como Utilizamos as Suas Informações</h2>
+              <p>Utilizamos as informações recolhidas para diversos fins, incluindo:</p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Fornecer, manter e melhorar o nosso Serviço</li>
+                <li>Analisar como o nosso Serviço é utilizado</li>
+                <li>Enviar newsletters e comunicações (com o seu consentimento)</li>
+                <li>Responder às suas questões e prestar apoio</li>
+                <li>Detetar, prevenir e resolver problemas técnicos</li>
+                <li>Cumprir obrigações legais</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">4. Cookies and Tracking Technologies</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">4. Cookies e Tecnologias de Rastreamento</h2>
               <p>
-                We use cookies and similar tracking technologies to track activity on our Service and hold 
-                certain information. Cookies are files with a small amount of data which may include an 
-                anonymous unique identifier.
+                Utilizamos cookies e tecnologias semelhantes para monitorizar a atividade no nosso Serviço
+                e armazenar determinadas informações. Os cookies são ficheiros com uma pequena quantidade
+                de dados que podem incluir um identificador único anónimo.
               </p>
               <p className="mt-3">
-                You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. 
-                However, if you do not accept cookies, you may not be able to use some portions of our Service.
+                Pode configurar o seu navegador para recusar todos os cookies ou para indicar quando um cookie
+                está a ser enviado. No entanto, se não aceitar cookies, poderá não conseguir utilizar
+                algumas partes do nosso Serviço.
               </p>
-              <p className="mt-3">
-                We use cookies for:
-              </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Essential website functionality</li>
-                <li>Analytics and performance monitoring</li>
-                <li>Personalization of content</li>
-                <li>Advertising and marketing purposes</li>
+              <p className="mt-3">Utilizamos cookies para:</p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Funcionalidade essencial do website</li>
+                <li>Análise e monitorização de desempenho</li>
+                <li>Personalização de conteúdos</li>
+                <li>Fins publicitários e de marketing</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">5. Third-Party Services</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">5. Serviços de Terceiros</h2>
               <p>
-                Our Service may contain links to third-party websites or services that are not owned or 
-                controlled by us. We are not responsible for the privacy practices of these third parties.
+                O nosso Serviço pode conter ligações para websites de terceiros que não são detidos nem
+                controlados por nós. Não somos responsáveis pelas práticas de privacidade desses terceiros.
               </p>
-              <p className="mt-3">
-                We may use third-party services such as:
-              </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Analytics providers (e.g., Google Analytics)</li>
-                <li>Advertising networks</li>
-                <li>Social media platforms</li>
-                <li>Payment processors (if applicable)</li>
+              <p className="mt-3">Podemos utilizar serviços de terceiros como:</p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Fornecedores de análise (ex.: Google Analytics)</li>
+                <li>Redes publicitárias</li>
+                <li>Plataformas de redes sociais</li>
+                <li>Processadores de pagamentos (se aplicável)</li>
               </ul>
-              <p className="mt-3">
-                These third parties may collect information about your use of our Service and other websites 
-                to provide you with relevant advertisements.
+            </section>
+
+            <section>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">6. Segurança dos Dados</h2>
+              <p>
+                Implementamos medidas de segurança técnicas e organizacionais adequadas para proteger
+                as suas informações pessoais. Contudo, nenhum método de transmissão pela Internet ou
+                armazenamento eletrónico é 100% seguro, e não podemos garantir segurança absoluta.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">6. Data Security</h2>
-              <p>
-                We implement appropriate technical and organizational security measures to protect your 
-                personal information. However, no method of transmission over the Internet or electronic 
-                storage is 100% secure, and we cannot guarantee absolute security.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">7. Your Rights (UK GDPR)</h2>
-              <p>
-                Under UK GDPR, you have the following rights regarding your personal information:
-              </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li><strong>Right of Access:</strong> You can request copies of your personal data</li>
-                <li><strong>Right to Rectification:</strong> You can request correction of inaccurate data</li>
-                <li><strong>Right to Erasure:</strong> You can request deletion of your personal data</li>
-                <li><strong>Right to Restrict Processing:</strong> You can request limitation of data processing</li>
-                <li><strong>Right to Data Portability:</strong> You can request transfer of your data</li>
-                <li><strong>Right to Object:</strong> You can object to processing of your personal data</li>
-                <li><strong>Right to Withdraw Consent:</strong> You can withdraw consent at any time</li>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">7. Os Seus Direitos (RGPD)</h2>
+              <p>Ao abrigo do RGPD, tem os seguintes direitos relativos aos seus dados pessoais:</p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li><strong>Direito de Acesso:</strong> Pode solicitar cópias dos seus dados pessoais</li>
+                <li><strong>Direito de Retificação:</strong> Pode solicitar a correção de dados incorretos</li>
+                <li><strong>Direito ao Apagamento:</strong> Pode solicitar a eliminação dos seus dados</li>
+                <li><strong>Direito à Limitação do Tratamento:</strong> Pode solicitar a limitação do tratamento dos dados</li>
+                <li><strong>Direito à Portabilidade:</strong> Pode solicitar a transferência dos seus dados</li>
+                <li><strong>Direito de Oposição:</strong> Pode opor-se ao tratamento dos seus dados</li>
+                <li><strong>Direito de Retirar o Consentimento:</strong> Pode retirar o consentimento a qualquer momento</li>
               </ul>
-              <p className="mt-3">
-                To exercise these rights, please contact us using the information provided in the Contact 
-                section below.
+            </section>
+
+            <section>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">8. Retenção de Dados</h2>
+              <p>
+                Conservaremos as suas informações pessoais apenas durante o tempo necessário para cumprir
+                os fins descritos nesta Política de Privacidade, salvo se um período de retenção mais
+                longo for exigido ou permitido por lei.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">8. Data Retention</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">9. Privacidade de Menores</h2>
               <p>
-                We will retain your personal information only for as long as necessary to fulfill the purposes 
-                outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+                O nosso Serviço não se destina a pessoas com menos de 18 anos. Não recolhemos deliberadamente
+                informações pessoais de menores de 18 anos. Se for pai, mãe ou tutor e acreditar que o seu
+                filho nos forneceu dados pessoais, contacte-nos imediatamente.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">9. Children's Privacy</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">10. Alterações a Esta Política</h2>
               <p>
-                Our Service is not intended for individuals under the age of 18. We do not knowingly collect 
-                personal information from children under 18. If you are a parent or guardian and believe your 
-                child has provided us with personal information, please contact us immediately.
+                Podemos atualizar a nossa Política de Privacidade periodicamente. Notificá-lo-emos de
+                quaisquer alterações publicando a nova Política nesta página e atualizando a data de
+                &quot;Última atualização&quot;.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">10. Changes to This Privacy Policy</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">11. Contacte-nos</h2>
               <p>
-                We may update our Privacy Policy from time to time. We will notify you of any changes by 
-                posting the new Privacy Policy on this page and updating the "Last updated" date.
+                Se tiver questões sobre esta Política de Privacidade ou pretender exercer os seus direitos,
+                contacte-nos:
               </p>
-              <p className="mt-3">
-                You are advised to review this Privacy Policy periodically for any changes. Changes to this 
-                Privacy Policy are effective when they are posted on this page.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">11. Contact Us</h2>
-              <p>
-                If you have any questions about this Privacy Policy or wish to exercise your rights, please 
-                contact us:
-              </p>
-              <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
-                <p className="font-semibold text-white">Casino Top Choices</p>
-                <p>Website: <a href="https://www.royalukspins.com" className="text-emerald-400 hover:text-emerald-300 underline">royalukspins.com</a></p>
-                <p>Email: Please use our contact form on the website</p>
+              <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="font-semibold text-white">Guia Casinos Portugal</p>
+                <p>Utilize o formulário de contacto disponível no website</p>
               </div>
             </section>
           </div>
         </div>
       </main>
 
-      <footer className="bg-black border-t border-white/10 py-6 sm:py-8 lg:py-12 mt-12">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="flex justify-center mb-6 sm:mb-8">
-            <Logo />
-          </div>
-          <div className="border-t border-white/10 pt-4 sm:pt-6 text-center">
-            <p className="text-gray-500 text-xs sm:text-sm">
-              © 2026 royalukspins.com. For educational purposes only. 18+ only. Please gamble responsibly.
-            </p>
-            <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
-              <a href="/" className="text-emerald-400 hover:text-emerald-300">Home</a>
-              <span className="text-gray-600">|</span>
-              <a href="/privacy" className="text-emerald-400 hover:text-emerald-300">Privacy Policy</a>
-              <span className="text-gray-600">|</span>
-              <a href="/terms" className="text-emerald-400 hover:text-emerald-300">Terms of Service</a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,259 +1,205 @@
 import Header from '../components/Header';
-import Logo from '../components/Logo';
+import Footer from '../components/Footer';
 
 export const metadata = {
-  title: "Terms of Service - Casino Top Choices",
-  description: "Terms of Service for Casino Top Choices. Read our terms and conditions for using our casino comparison website.",
+  title: "Termos de Utilização - Guia Casinos Portugal",
+  description: "Termos de Utilização do Guia Casinos Portugal. Leia os nossos termos e condições para utilização do website de comparação de casinos.",
 };
 
 export default function TermsOfService() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-transparent">
       <Header />
-      
-      <main className="container mx-auto px-4 py-8 sm:py-12 lg:py-16 max-w-4xl">
-        <div className="bg-zinc-900 rounded-3xl p-6 sm:p-8 lg:p-12 border border-white/10 shadow-lg">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6 sm:mb-8">
-            Terms of Service
+
+      <main className="container mx-auto max-w-4xl px-4 py-8 sm:py-12 lg:py-16">
+        <div className="rounded-2xl border border-white/10 bg-[#111b2e] p-6 shadow-lg sm:p-8 lg:p-12">
+          <h1 className="mb-6 text-3xl font-extrabold text-white sm:mb-8 sm:text-4xl lg:text-5xl">
+            Termos de Utilização
           </h1>
-          
-          <div className="text-gray-400 text-sm sm:text-base leading-relaxed space-y-6">
-            <p className="text-gray-500 italic">
-              Last updated: {new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
+
+          <div className="space-y-6 text-sm leading-relaxed text-white/55 sm:text-base">
+            <p className="italic text-white/35">
+              Última atualização: {new Date().toLocaleDateString('pt-PT', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">1. Aceitação dos Termos</h2>
               <p>
-                By accessing and using royalukspins.com (the "Website" or "Service"), you accept and agree
-                to be bound by the terms and provision of this agreement. If you do not agree to abide by the 
-                above, please do not use this Service.
+                Ao aceder e utilizar este website (o &quot;Website&quot; ou &quot;Serviço&quot;), aceita e concorda
+                em ficar vinculado aos termos e condições deste acordo. Se não concordar, não utilize este Serviço.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Description of Service</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">2. Descrição do Serviço</h2>
               <p>
-                Casino Top Choices is an information and comparison website that provides reviews, ratings, and 
-                information about online casino operators. We are an independent comparison service and do not 
-                operate any gambling services ourselves.
+                O Guia Casinos Portugal é um website informativo e de comparação que fornece análises, classificações
+                e informações sobre operadores de casino online. Somos um serviço de comparação independente e não
+                operamos quaisquer serviços de jogo.
               </p>
-              <p className="mt-3">
-                Our Service includes:
-              </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Casino reviews and ratings</li>
-                <li>Comparison of casino features, bonuses, and services</li>
-                <li>Educational content about online gambling</li>
-                <li>Links to third-party casino operators</li>
+              <p className="mt-3">O nosso Serviço inclui:</p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Análises e classificações de casinos</li>
+                <li>Comparação de funcionalidades, bónus e serviços dos casinos</li>
+                <li>Conteúdo educativo sobre jogo online</li>
+                <li>Ligações para operadores de casino terceiros</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">3. Age Restrictions</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">3. Restrições de Idade</h2>
               <p>
-                You must be at least 18 years old to use this Service. By using this Service, you represent 
-                and warrant that you are at least 18 years of age and have the legal capacity to enter into 
-                this agreement.
+                Deve ter pelo menos 18 anos para utilizar este Serviço. Ao utilizá-lo, declara e garante
+                que tem pelo menos 18 anos e capacidade legal para celebrar este acordo.
               </p>
               <p className="mt-3">
-                Online gambling is illegal for individuals under the age of 18 in the United Kingdom. We do 
-                not knowingly provide information to minors.
+                O jogo online é ilegal para menores de 18 anos em Portugal. Não fornecemos deliberadamente
+                informações a menores.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">4. Use of Service</h2>
-              <p>You agree to use the Service only for lawful purposes and in accordance with these Terms. 
-                You agree not to:
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">4. Utilização do Serviço</h2>
+              <p>
+                Concorda em utilizar o Serviço apenas para fins lícitos e em conformidade com estes Termos.
+                Concorda em não:
               </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Use the Service in any way that violates any applicable law or regulation</li>
-                <li>Attempt to gain unauthorized access to any portion of the Service</li>
-                <li>Interfere with or disrupt the Service or servers connected to the Service</li>
-                <li>Use any automated system to access the Service without our express written permission</li>
-                <li>Reproduce, duplicate, copy, or resell any part of the Service without our permission</li>
-                <li>Use the Service to transmit any viruses, malware, or harmful code</li>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>Utilizar o Serviço de forma que viole qualquer lei ou regulamento aplicável</li>
+                <li>Tentar obter acesso não autorizado a qualquer parte do Serviço</li>
+                <li>Interferir ou perturbar o Serviço ou os servidores a ele ligados</li>
+                <li>Utilizar qualquer sistema automatizado para aceder ao Serviço sem a nossa permissão</li>
+                <li>Reproduzir, duplicar ou revender qualquer parte do Serviço sem a nossa autorização</li>
+                <li>Utilizar o Serviço para transmitir vírus, malware ou código malicioso</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">5. Third-Party Links and Services</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">5. Ligações e Serviços de Terceiros</h2>
               <p>
-                Our Service contains links to third-party websites, including online casino operators. We are 
-                not responsible for the content, privacy policies, or practices of any third-party websites.
+                O nosso Serviço contém ligações para websites de terceiros, incluindo operadores de casino online.
+                Não somos responsáveis pelo conteúdo, políticas de privacidade ou práticas de websites terceiros.
               </p>
               <p className="mt-3">
-                When you click on links to third-party casinos, you will leave our Website and be subject to 
-                the terms and conditions and privacy policies of those third-party websites. We encourage you 
-                to review the terms and privacy policies of any third-party websites you visit.
+                Quando clica em ligações para casinos terceiros, abandona o nosso Website e fica sujeito
+                aos termos e condições e políticas de privacidade desses websites. Encorajamos a revisão
+                dos termos e políticas de privacidade de qualquer website terceiro que visite.
               </p>
               <p className="mt-3">
-                We may receive compensation from casino operators when you click on links or sign up through 
-                our Service. This does not affect our editorial independence or the accuracy of our reviews.
+                Podemos receber compensação de operadores de casino quando clica em ligações ou se regista
+                através do nosso Serviço. Isto não afeta a nossa independência editorial nem a precisão
+                das nossas análises.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">6. Disclaimer of Warranties</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">6. Exclusão de Garantias</h2>
               <p>
-                The information on this Website is provided on an "as is" basis. To the fullest extent 
-                permitted by law, we exclude all representations, warranties, and conditions relating to our 
-                Website and the use of this Website.
+                As informações neste Website são fornecidas &quot;tal como estão&quot;. Na máxima extensão permitida
+                por lei, excluímos todas as representações, garantias e condições relativas ao nosso Website.
               </p>
-              <p className="mt-3">
-                We do not warrant that:
-              </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>The information on this Website is complete, accurate, or up-to-date</li>
-                <li>The Website will be available at all times or free from errors</li>
-                <li>The Website is free from viruses or other harmful components</li>
-                <li>Any casino operator will meet your expectations or requirements</li>
+              <p className="mt-3">Não garantimos que:</p>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li>As informações neste Website sejam completas, precisas ou atualizadas</li>
+                <li>O Website esteja disponível em todos os momentos ou livre de erros</li>
+                <li>O Website esteja livre de vírus ou outros componentes prejudiciais</li>
+                <li>Qualquer operador de casino satisfaça as suas expectativas</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">7. Limitation of Liability</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">7. Limitação de Responsabilidade</h2>
               <p>
-                To the maximum extent permitted by applicable law, Casino Top Choices and its owners, employees, 
-                and affiliates shall not be liable for any indirect, incidental, special, consequential, or 
-                punitive damages, including without limitation, loss of profits, data, use, goodwill, or other 
-                intangible losses, resulting from:
+                Na máxima extensão permitida pela lei aplicável, o Guia Casinos Portugal e os seus proprietários,
+                colaboradores e afiliados não serão responsáveis por quaisquer danos indiretos, incidentais,
+                especiais, consequenciais ou punitivos, incluindo, sem limitação, perda de lucros, dados,
+                uso ou outros prejuízos intangíveis resultantes da utilização do Serviço.
               </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Your use or inability to use the Service</li>
-                <li>Any conduct or content of third parties on the Service</li>
-                <li>Any unauthorized access to or use of our servers</li>
-                <li>Any interruption or cessation of transmission to or from the Service</li>
-                <li>Any bugs, viruses, or similar items transmitted through the Service</li>
-                <li>Any gambling losses incurred at third-party casino operators</li>
-              </ul>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">8. Responsible Gambling</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">8. Jogo Responsável</h2>
               <p>
-                We are committed to promoting responsible gambling. Gambling should be entertaining and not 
-                seen as a way to make money or solve financial problems.
+                Estamos comprometidos com a promoção do jogo responsável. O jogo deve ser encarado como
+                entretenimento e não como forma de obter rendimento ou resolver problemas financeiros.
               </p>
               <p className="mt-3">
-                If you or someone you know has a gambling problem, please seek help:
+                Se tiver ou conhecer alguém com problemas de jogo, procure ajuda:
               </p>
-              <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li><strong>BeGambleAware:</strong> Visit{' '}
-                  <a href="https://www.begambleaware.org" target="_blank" rel="noopener noreferrer" 
-                     className="text-emerald-400 hover:text-emerald-300 underline">
-                    begambleaware.org
-                  </a>
-                </li>
-                <li><strong>GamCare:</strong> Call 0808 8020 133 or visit{' '}
-                  <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener noreferrer" 
-                     className="text-emerald-400 hover:text-emerald-300 underline">
-                    gamcare.org.uk
-                  </a>
-                </li>
-                <li><strong>National Gambling Helpline:</strong> 0808 8020 133</li>
+              <ul className="ml-4 mt-2 list-inside list-disc space-y-2">
+                <li><strong>SICAD:</strong> Serviço de Intervenção nos Comportamentos Aditivos e nas Dependências</li>
+                <li><strong>Linha Vida:</strong> 1414</li>
+                <li><strong>Jogadores Anónimos</strong></li>
               </ul>
               <p className="mt-3">
-                Never gamble with money you cannot afford to lose. Set limits on your gambling and stick to them.
+                Nunca jogue com dinheiro que não pode perder. Defina limites para a sua atividade de jogo e cumpra-os.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">9. Intellectual Property</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">9. Propriedade Intelectual</h2>
               <p>
-                The Service and its original content, features, and functionality are owned by Casino Top Choices 
-                and are protected by international copyright, trademark, patent, trade secret, and other 
-                intellectual property laws.
+                O Serviço e o seu conteúdo original, funcionalidades e características são propriedade do
+                Guia Casinos Portugal e estão protegidos por leis de direitos de autor, marcas registadas
+                e outras leis de propriedade intelectual.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">10. Divulgação de Afiliação</h2>
+              <p>
+                O Guia Casinos Portugal pode receber compensação de operadores de casino quando os utilizadores
+                clicam em ligações ou se registam através do nosso Serviço. Esta compensação ajuda-nos a manter
+                e melhorar o Serviço.
               </p>
               <p className="mt-3">
-                You may not reproduce, distribute, modify, create derivative works of, publicly display, 
-                publicly perform, republish, download, store, or transmit any of the material on our Website 
-                without our prior written consent.
+                As nossas análises e classificações baseiam-se na nossa avaliação independente e não são
+                influenciadas por relações de afiliação. Estamos empenhados em fornecer informação honesta,
+                precisa e imparcial.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">10. Affiliate Disclosure</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">11. Alterações aos Termos</h2>
               <p>
-                Casino Top Choices may receive compensation from casino operators when users click on links or 
-                sign up through our Service. This compensation helps us maintain and improve our Service.
-              </p>
-              <p className="mt-3">
-                Our reviews and ratings are based on our independent evaluation and are not influenced by 
-                affiliate relationships. We are committed to providing honest, accurate, and unbiased 
-                information to our users.
+                Reservamo-nos o direito de modificar ou substituir estes Termos a qualquer momento. Se uma
+                revisão for significativa, procuraremos fornecer um aviso prévio de pelo menos 30 dias.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">11. Changes to Terms</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">12. Lei Aplicável</h2>
               <p>
-                We reserve the right to modify or replace these Terms at any time. If a revision is material, 
-                we will try to provide at least 30 days notice prior to any new terms taking effect.
-              </p>
-              <p className="mt-3">
-                What constitutes a material change will be determined at our sole discretion. By continuing 
-                to access or use our Service after those revisions become effective, you agree to be bound by 
-                the revised terms.
+                Estes Termos serão regidos e interpretados de acordo com as leis de Portugal. Quaisquer
+                litígios decorrentes destes Termos ou do Serviço estarão sujeitos à jurisdição exclusiva
+                dos tribunais portugueses.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">12. Governing Law</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">13. Informações de Contacto</h2>
               <p>
-                These Terms shall be governed by and construed in accordance with the laws of England and Wales, 
-                without regard to its conflict of law provisions.
+                Se tiver questões sobre estes Termos de Utilização, contacte-nos:
               </p>
-              <p className="mt-3">
-                Any disputes arising out of or relating to these Terms or the Service shall be subject to the 
-                exclusive jurisdiction of the courts of England and Wales.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">13. Contact Information</h2>
-              <p>
-                If you have any questions about these Terms of Service, please contact us:
-              </p>
-              <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
-                <p className="font-semibold text-white">Casino Top Choices</p>
-                <p>Website: <a href="https://www.royalukspins.com" className="text-emerald-400 hover:text-emerald-300 underline">royalukspins.com</a></p>
-                <p>Email: Please use our contact form on the website</p>
+              <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="font-semibold text-white">Guia Casinos Portugal</p>
+                <p>Utilize o formulário de contacto disponível no website</p>
               </div>
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">14. Severability</h2>
+              <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">14. Divisibilidade</h2>
               <p>
-                If any provision of these Terms is held to be invalid or unenforceable by a court, the 
-                remaining provisions of these Terms will remain in effect. These Terms constitute the entire 
-                agreement between us regarding our Service.
+                Se qualquer disposição destes Termos for considerada inválida ou inexequível por um tribunal,
+                as restantes disposições permanecerão em vigor. Estes Termos constituem o acordo integral
+                entre nós relativamente ao nosso Serviço.
               </p>
             </section>
           </div>
         </div>
       </main>
 
-      <footer className="bg-black border-t border-white/10 py-6 sm:py-8 lg:py-12 mt-12">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="flex justify-center mb-6 sm:mb-8">
-            <Logo />
-          </div>
-          <div className="border-t border-white/10 pt-4 sm:pt-6 text-center">
-            <p className="text-gray-500 text-xs sm:text-sm">
-              © 2026 royalukspins.com. For educational purposes only. 18+ only. Please gamble responsibly.
-            </p>
-            <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
-              <a href="/" className="text-emerald-400 hover:text-emerald-300">Home</a>
-              <span className="text-gray-600">|</span>
-              <a href="/privacy" className="text-emerald-400 hover:text-emerald-300">Privacy Policy</a>
-              <span className="text-gray-600">|</span>
-              <a href="/terms" className="text-emerald-400 hover:text-emerald-300">Terms of Service</a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
