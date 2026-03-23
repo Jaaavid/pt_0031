@@ -19,7 +19,7 @@ export const casinos: Casino[] = [
     votes: 9547,
     bonus: "100% up to 1000 EUR + 300 FREE SPINS",
     url: "https://safecasino.sedeciassls.live?sub_id_1=zlaeg1h19lmm22&utm_source=safecasino",
-    badge: "Grandes Bónus",
+    badge: "Melhor Escolha",
     isMobile: true
   },
   {
