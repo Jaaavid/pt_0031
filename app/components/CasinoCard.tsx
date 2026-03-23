@@ -35,10 +35,10 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
   };
 
   return (
-    <article className="mx-auto w-full max-w-lg rounded-[28px] border border-white/10 bg-[#111b2e] p-3 text-white shadow-[0_20px_60px_rgba(0,0,0,0.5)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_24px_70px_rgba(0,0,0,0.6)] sm:p-4">
+    <article className="mx-auto w-full max-w-lg rounded-3xl border border-white/[0.08] bg-[#141418] p-3 text-white shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-200 hover:-translate-y-0.5 hover:border-emerald-500/15 hover:shadow-[0_24px_70px_rgba(0,0,0,0.7)] sm:p-4">
       {casino.badge && (
         <div className="px-2 pt-1">
-          <span className="inline-flex rounded-full bg-blue-500/15 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-400">
+          <span className="inline-flex rounded-full bg-emerald-500/12 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.14em] text-emerald-400">
             {casino.badge}
           </span>
         </div>
@@ -59,14 +59,14 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
             <div className="mt-1.5 text-sm leading-none tracking-[0.12em] text-amber-400 sm:text-base">
               ★★★★★
             </div>
-            <div className="mt-1 text-xs text-white/50">
+            <div className="mt-1 text-xs text-white/40">
               {casino.votes.toLocaleString('pt-PT')} votos
             </div>
           </div>
         </div>
 
-        <div className="mb-5 rounded-[22px] border border-blue-500/25 bg-[#0d1526] px-4 py-5 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] sm:px-5">
-          <div className="text-[11px] font-extrabold uppercase tracking-[0.32em] text-blue-300 sm:text-xs">
+        <div className="mb-5 rounded-2xl border border-emerald-500/15 bg-[#0e0e12] px-4 py-5 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.02)] sm:px-5">
+          <div className="text-[11px] font-extrabold uppercase tracking-[0.32em] text-emerald-300 sm:text-xs">
             Bónus de Boas-Vindas
           </div>
           <div className="mt-3 text-[20px] font-black uppercase leading-[1.35] tracking-[-0.02em] text-white sm:text-[24px]">
@@ -82,13 +82,13 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
             event.stopPropagation();
             handleCasinoClick();
           }}
-          className="flex w-full items-center justify-center rounded-[18px] border border-blue-600 bg-[linear-gradient(180deg,#3b82f6_0%,#2563eb_100%)] px-4 py-3.5 text-center text-[20px] font-black text-white shadow-[0_12px_28px_rgba(37,99,235,0.3)] transition-transform duration-200 hover:scale-[1.01] sm:text-[22px]"
+          className="flex w-full items-center justify-center rounded-2xl border border-emerald-600 bg-[linear-gradient(180deg,#10b981_0%,#059669_100%)] px-4 py-3.5 text-center text-[20px] font-black text-white shadow-[0_12px_28px_rgba(5,150,105,0.25)] transition-transform duration-200 hover:scale-[1.01] sm:text-[22px]"
         >
           Ver detalhes
           <span className="ml-2 text-[0.9em] leading-none">→</span>
         </a>
 
-        <div className="mt-3 text-center text-xs font-medium text-white/50 sm:text-sm">
+        <div className="mt-3 text-center text-xs font-medium text-white/40 sm:text-sm">
           Aplicam-se T&amp;C. 18+. Jogue com responsabilidade.
         </div>
       </div>

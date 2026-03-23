@@ -12,13 +12,13 @@ export default function TermsOfService() {
       <Header />
 
       <main className="container mx-auto max-w-4xl px-4 py-8 sm:py-12 lg:py-16">
-        <div className="rounded-2xl border border-white/10 bg-[#111b2e] p-6 shadow-lg sm:p-8 lg:p-12">
+        <div className="rounded-2xl border border-white/[0.08] bg-[#141418] p-6 shadow-lg sm:p-8 lg:p-12">
           <h1 className="mb-6 text-3xl font-extrabold text-white sm:mb-8 sm:text-4xl lg:text-5xl">
             Termos de Utilização
           </h1>
 
-          <div className="space-y-6 text-sm leading-relaxed text-white/55 sm:text-base">
-            <p className="italic text-white/35">
+          <div className="space-y-6 text-sm leading-relaxed text-white/45 sm:text-base">
+            <p className="italic text-white/25">
               Última atualização: {new Date().toLocaleDateString('pt-PT', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
@@ -181,7 +181,7 @@ export default function TermsOfService() {
               <p>
                 Se tiver questões sobre estes Termos de Utilização, contacte-nos:
               </p>
-              <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <div className="mt-3 rounded-2xl border border-white/[0.08] bg-white/[0.03] p-4">
                 <p className="font-semibold text-white">Guia Casinos Portugal</p>
                 <p>Utilize o formulário de contacto disponível no website</p>
               </div>

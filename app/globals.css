@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b1222;
-  --foreground: #e2e8f0;
-  --accent: #3b82f6;
-  --accent-2: #f59e0b;
-  --navy-900: #0b1222;
-  --navy-800: #111b2e;
-  --navy-700: #1a2744;
-  --blue-500: #3b82f6;
-  --blue-300: #93bbfd;
-  --amber-500: #f59e0b;
+  --background: #0a0a0b;
+  --foreground: #e8e4de;
+  --accent: #10b981;
+  --accent-2: #d4a853;
+  --dark-900: #0a0a0b;
+  --dark-800: #141418;
+  --dark-700: #1c1c22;
+  --emerald-500: #10b981;
+  --emerald-300: #6ee7b7;
+  --gold-500: #d4a853;
+  --gold-300: #e8c97a;
 }
 
 @theme inline {
@@ -26,8 +27,9 @@ html {
 
 body {
   background:
-    radial-gradient(ellipse at top center, rgba(59, 130, 246, 0.07), transparent 50%),
-    linear-gradient(180deg, #0f1a2e 0%, #0b1222 100%);
+    radial-gradient(ellipse at 30% 0%, rgba(16, 185, 129, 0.06), transparent 55%),
+    radial-gradient(ellipse at 70% 0%, rgba(212, 168, 83, 0.04), transparent 50%),
+    linear-gradient(180deg, #0e0e10 0%, #0a0a0b 100%);
   color: var(--foreground);
   font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   min-height: 100vh;
@@ -39,11 +41,11 @@ body::before {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
-  background-size: 32px 32px;
-  mask-image: radial-gradient(circle at center, black 35%, transparent 100%);
-  opacity: 0.3;
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black 30%, transparent 100%);
+  opacity: 0.25;
 }
 
 a, button {
@@ -56,7 +58,7 @@ a, button {
 }
 
 ::selection {
-  background: rgba(59, 130, 246, 0.3);
+  background: rgba(16, 185, 129, 0.3);
   color: #ffffff;
 }
 

@@ -46,7 +46,7 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
             {updatedCasinos.map((casino, index) => (
               <CasinoCard
                 isOnline={isOnline}
-                key={casino.id}
+                key={index}
                 casino={casino}
                 rank={index + 1}
                 badge={index === 0 ? 'gold' : index === 1 ? 'silver' : index === 2 ? 'bronze' : index === 3 ? 'fourth' : undefined}

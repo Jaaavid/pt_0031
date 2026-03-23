@@ -12,13 +12,13 @@ export default function PrivacyPolicy() {
       <Header />
 
       <main className="container mx-auto max-w-4xl px-4 py-8 sm:py-12 lg:py-16">
-        <div className="rounded-2xl border border-white/10 bg-[#111b2e] p-6 shadow-lg sm:p-8 lg:p-12">
+        <div className="rounded-2xl border border-white/[0.08] bg-[#141418] p-6 shadow-lg sm:p-8 lg:p-12">
           <h1 className="mb-6 text-3xl font-extrabold text-white sm:mb-8 sm:text-4xl lg:text-5xl">
             Política de Privacidade
           </h1>
 
-          <div className="space-y-6 text-sm leading-relaxed text-white/55 sm:text-base">
-            <p className="italic text-white/35">
+          <div className="space-y-6 text-sm leading-relaxed text-white/45 sm:text-base">
+            <p className="italic text-white/25">
               Última atualização: {new Date().toLocaleDateString('pt-PT', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="mb-4 text-xl font-bold text-white sm:text-2xl">2. Informações que Recolhemos</h2>
 
-              <h3 className="mb-3 mt-4 text-lg font-semibold text-white/80 sm:text-xl">2.1 Informações Fornecidas por Si</h3>
+              <h3 className="mb-3 mt-4 text-lg font-semibold text-white/70 sm:text-xl">2.1 Informações Fornecidas por Si</h3>
               <p>
                 Podemos recolher informações que nos fornece voluntariamente quando:
               </p>
@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
                 <li>Interage com o nosso Serviço de outras formas</li>
               </ul>
 
-              <h3 className="mb-3 mt-4 text-lg font-semibold text-white/80 sm:text-xl">2.2 Informações Recolhidas Automaticamente</h3>
+              <h3 className="mb-3 mt-4 text-lg font-semibold text-white/70 sm:text-xl">2.2 Informações Recolhidas Automaticamente</h3>
               <p>
                 Quando visita o nosso Serviço, podemos recolher automaticamente determinadas informações sobre o seu dispositivo, incluindo:
               </p>
@@ -168,7 +168,7 @@ export default function PrivacyPolicy() {
                 Se tiver questões sobre esta Política de Privacidade ou pretender exercer os seus direitos,
                 contacte-nos:
               </p>
-              <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <div className="mt-3 rounded-2xl border border-white/[0.08] bg-white/[0.03] p-4">
                 <p className="font-semibold text-white">Guia Casinos Portugal</p>
                 <p>Utilize o formulário de contacto disponível no website</p>
               </div>
