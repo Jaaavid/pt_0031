@@ -13,6 +13,16 @@ export interface Casino {
 
 export const casinos: Casino[] = [
   {
+    name: "SafeCasino",
+    logo: "/safecasino.png",
+    rating: 10,
+    votes: 9547,
+    bonus: "100% up to 1000 EUR + 300 FREE SPINS",
+    url: "https://safecasino.sedeciassls.live?sub_id_1=zlaeg1h19lmm22&utm_source=safecasino",
+    badge: "Grandes Bónus",
+    isMobile: true
+  },
+  {
     name: "Vegazone",
     logo: "/vegazone.svg",
     rating: 9.9,
