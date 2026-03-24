@@ -37,7 +37,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
   const renderStars = () => (
     <div className="flex gap-0.5">
       {[...Array(5)].map((_, i) => (
-        <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" />
+        <Star key={i} className="h-4 w-4 fill-rose-400 text-rose-400" />
       ))}
     </div>
   );
@@ -65,7 +65,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
       onClick={handleClose}
     >
       <div
-        className="relative max-w-md w-full overflow-hidden rounded-2xl border border-blue-500/40 bg-[#111b2e] shadow-2xl"
+        className="relative max-w-md w-full overflow-hidden rounded-2xl border border-sky-500/40 bg-[#0c1220] shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -77,7 +77,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
         </button>
 
         <div className="relative -mt-2 mb-4">
-          <div className="relative mx-4 rounded-sm bg-gradient-to-r from-blue-600 via-blue-600 to-blue-700 px-8 py-3 text-center font-bold text-white">
+          <div className="relative mx-4 rounded-sm bg-gradient-to-r from-sky-600 via-sky-600 to-sky-700 px-8 py-3 text-center font-bold text-white">
             <span className="relative z-10 text-sm font-extrabold uppercase tracking-wide sm:text-base">
               OFERTA EXCLUSIVA
             </span>
@@ -95,7 +95,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
 
           <div className="mb-4 space-y-1 text-center">
             {casino.bonus.includes('+') && (
-              <p className="inline-block whitespace-normal break-words rounded-md border border-blue-500/30 bg-blue-500/15 px-3 py-1 text-center text-lg font-extrabold text-white sm:text-xl">
+              <p className="inline-block whitespace-normal break-words rounded-md border border-sky-500/30 bg-sky-500/15 px-3 py-1 text-center text-lg font-extrabold text-white sm:text-xl">
                 {casino.bonus}
               </p>
             )}
@@ -116,7 +116,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleClose}
-            className="block w-full rounded-xl bg-gradient-to-r from-blue-600 via-blue-600 to-blue-700 px-6 py-3 text-center text-lg font-extrabold uppercase tracking-wide text-white shadow-lg transition-all duration-300 hover:shadow-xl"
+            className="block w-full rounded-xl bg-gradient-to-r from-sky-600 via-sky-600 to-sky-700 px-6 py-3 text-center text-lg font-extrabold uppercase tracking-wide text-white shadow-lg transition-all duration-300 hover:shadow-xl"
           >
             VER DETALHES
           </a>

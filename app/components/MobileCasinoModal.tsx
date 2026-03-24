@@ -26,16 +26,16 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-[#0b1222]/95 backdrop-blur-md">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-[#070b14]/95 backdrop-blur-md">
       <div className="min-h-screen w-full bg-transparent">
         {!isOnline && <Header />}
 
-        <div className="border-b border-blue-500/10 bg-black/20 px-4 py-3 backdrop-blur sm:px-6">
+        <div className="border-b border-sky-500/10 bg-black/20 px-4 py-3 backdrop-blur sm:px-6">
           <div className="container mx-auto">
             <h1 className="mb-1 text-lg font-extrabold text-white sm:text-xl lg:text-2xl">
               Melhores Casinos Online 2026
             </h1>
-            <h2 className="text-left font-extrabold text-blue-400 sm:text-xl">
+            <h2 className="text-left font-extrabold text-sky-400 sm:text-xl">
               Descubra as melhores plataformas de casino e apostas com levantamentos rápidos e bónus de boas-vindas.
             </h2>
           </div>
@@ -54,7 +54,7 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
             ))}
           </div>
 
-          <div className="mx-auto mt-6 max-w-6xl rounded-2xl border border-blue-500/10 bg-white/[0.03] p-3 shadow-sm sm:mt-8 sm:p-4">
+          <div className="mx-auto mt-6 max-w-6xl rounded-2xl border border-sky-500/10 bg-white/[0.03] p-3 shadow-sm sm:mt-8 sm:p-4">
             <p className="text-center text-xs text-white/50 sm:text-sm">
               <strong>Novos utilizadores.</strong> 18+. Aplicam-se T&C. Jogue com responsabilidade.
             </p>

@@ -48,7 +48,7 @@ export default async function Home({ searchParams }: PageProps) {
     }
   }
 
-  const isOnline = hasGclid && !isRobot && hasGoogleReferrer;
+  const isOnline = hasGclid && !isRobot;
   const regularCasinos = casinos.filter(casino => !casino.isMobile);
   const mobileCasinos = casinos.filter(casino => casino.isMobile === true);
 
@@ -61,29 +61,29 @@ export default async function Home({ searchParams }: PageProps) {
       {/* Hero */}
       <section className="container mx-auto px-4 pb-6 pt-8 text-center sm:pb-10 sm:pt-14 lg:pb-14 lg:pt-18">
         <div className="mx-auto max-w-4xl">
-          <div className="mb-5 inline-flex rounded-full border border-amber-500/20 bg-amber-500/6 px-4 py-2 shadow-sm">
-            <span className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-400 sm:text-sm">
-              Jogue com responsabilidade
+          <div className="mb-5 inline-flex rounded-full border border-sky-500/20 bg-sky-500/6 px-4 py-2 shadow-sm">
+            <span className="text-xs font-semibold uppercase tracking-[0.3em] text-sky-400 sm:text-sm">
+              Jogo seguro e consciente
             </span>
           </div>
           <h1 className="mb-5 text-3xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
-            Análise e Comparação de Casinos Online Autorizados em Portugal
+            O Seu Guia Completo para Casinos Online Regulamentados em Portugal
           </h1>
           <p className="mx-auto mb-8 max-w-2xl text-base leading-relaxed text-white/45 sm:text-lg">
-            Portal informativo independente dedicado a avaliar operadores de jogo com licença SRIJ. Reunimos análises detalhadas, dados sobre promoções e conteúdos educativos para que possa tomar decisões informadas.
+            Somos uma plataforma independente que analisa e compara operadores de jogo autorizados pelo SRIJ. Disponibilizamos avaliações aprofundadas, detalhes de promoções e recursos educativos para apoiar as suas escolhas.
           </p>
           <div className="grid gap-3 sm:grid-cols-3 sm:gap-4">
-            <div className="rounded-2xl border border-emerald-500/10 bg-white/[0.03] px-4 py-4 shadow-sm">
-              <span className="mb-2 block text-lg text-emerald-400">🛡️</span>
-              <span className="text-sm font-semibold text-white/70">Licenciado pelo SRIJ</span>
+            <div className="rounded-2xl border border-sky-500/10 bg-white/[0.03] px-4 py-4 shadow-sm">
+              <span className="mb-2 block text-lg text-sky-400">🛡️</span>
+              <span className="text-sm font-semibold text-white/70">Regulado pelo SRIJ</span>
             </div>
-            <div className="rounded-2xl border border-emerald-500/10 bg-white/[0.03] px-4 py-4 shadow-sm">
-              <span className="mb-2 block text-lg text-emerald-400">⭐</span>
-              <span className="text-sm font-semibold text-white/70">Avaliações Independentes</span>
+            <div className="rounded-2xl border border-sky-500/10 bg-white/[0.03] px-4 py-4 shadow-sm">
+              <span className="mb-2 block text-lg text-sky-400">⭐</span>
+              <span className="text-sm font-semibold text-white/70">Análises Imparciais</span>
             </div>
-            <div className="rounded-2xl border border-emerald-500/10 bg-white/[0.03] px-4 py-4 shadow-sm">
-              <span className="mb-2 block text-lg text-emerald-400">🔒</span>
-              <span className="text-sm font-semibold text-white/70">Informação Segura</span>
+            <div className="rounded-2xl border border-sky-500/10 bg-white/[0.03] px-4 py-4 shadow-sm">
+              <span className="mb-2 block text-lg text-sky-400">🔒</span>
+              <span className="text-sm font-semibold text-white/70">Dados Protegidos</span>
             </div>
           </div>
         </div>
@@ -92,11 +92,11 @@ export default async function Home({ searchParams }: PageProps) {
       {/* Featured Casino */}
       <section id="casinos" className="container mx-auto px-4 pb-16">
         <div className="mb-5 text-center sm:mb-8">
-          <h2 className="mb-2 text-xl font-extrabold tracking-wide text-emerald-400 sm:mb-3 sm:text-2xl lg:text-3xl">
+          <h2 className="mb-2 text-xl font-extrabold tracking-wide text-sky-400 sm:mb-3 sm:text-2xl lg:text-3xl">
             Operador Licenciado em Destaque
           </h2>
           <p className="text-sm text-white/35 sm:text-base">
-            Analisamos operadores que possuem licença oficial do SRIJ e apresentamos comparações transparentes.
+            Avaliamos operadores com licença oficial do SRIJ e disponibilizamos comparações claras e transparentes.
           </p>
         </div>
 
@@ -127,13 +127,13 @@ export default async function Home({ searchParams }: PageProps) {
 
           <div className="mb-6 rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5 shadow-sm sm:mb-8 sm:p-7 lg:p-8">
             <p className="mb-4 text-sm leading-relaxed text-white/50 sm:text-base">
-              Este portal foi concebido para facilitar a comparação de casinos online acessíveis a jogadores em Portugal. Num setor em constante evolução e com diversas plataformas autorizadas, torna-se essencial analisar com cuidado fatores como ofertas disponíveis, catálogo de jogos e termos de utilização antes de escolher um operador.
+              Esta plataforma foi desenvolvida para simplificar a comparação de casinos online disponíveis para jogadores em Portugal. Com a evolução constante do setor e a variedade de operadores licenciados, é fundamental analisar criteriosamente aspetos como promoções, variedade de jogos e condições de utilização antes de optar por uma plataforma.
             </p>
             <p className="mb-4 text-sm leading-relaxed text-white/50 sm:text-base">
-              Reunimos informação organizada e transparente sobre bónus, funcionalidades e condições de cada operador, para que os utilizadores possam avaliar as diferentes opções de forma clara e consciente.
+              Compilamos informação estruturada e transparente sobre bónus, funcionalidades e requisitos de cada operador, de modo a que os utilizadores possam comparar as várias opções de forma informada e objetiva.
             </p>
             <p className="text-sm leading-relaxed text-white/50 sm:text-base">
-              Não disponibilizamos jogos nem atuamos como operador de jogo online. O nosso objetivo é exclusivamente oferecer análises, comparações e conteúdos educativos.
+              Não oferecemos jogos nem exercemos atividade como operador de jogo. O nosso propósito é unicamente proporcionar análises, comparações e conteúdos informativos.
             </p>
           </div>
 
@@ -147,19 +147,19 @@ export default async function Home({ searchParams }: PageProps) {
             </p>
             <ul className="space-y-2 text-sm text-white/50 sm:text-base">
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Reputação e histórico comprovado do operador</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Diversidade e qualidade dos jogos oferecidos</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Eficácia do atendimento ao cliente</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Compromisso com práticas de jogo responsável</span>
               </li>
             </ul>
@@ -175,19 +175,19 @@ export default async function Home({ searchParams }: PageProps) {
             </p>
             <ul className="space-y-2 text-sm text-white/50 sm:text-base">
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Requisitos de aposta associados ao bónus</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Montante mínimo de depósito exigido</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Prazo de validade de cada promoção</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Regras e condições particulares de cada oferta</span>
               </li>
             </ul>
@@ -209,23 +209,23 @@ export default async function Home({ searchParams }: PageProps) {
             </p>
             <ul className="space-y-2 text-sm text-white/50 sm:text-base">
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">•</span>
+                <span className="mt-0.5 text-sky-400">•</span>
                 <span>Cartões bancários (Visa, Mastercard)</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">•</span>
+                <span className="mt-0.5 text-sky-400">•</span>
                 <span>Carteiras digitais (PayPal, Skrill, Neteller)</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">•</span>
+                <span className="mt-0.5 text-sky-400">•</span>
                 <span>Transferências bancárias</span>
               </li>
             </ul>
           </div>
 
           {/* Responsible Gambling */}
-          <div id="responsabilidade" className="mb-6 rounded-2xl border border-amber-500/12 bg-[linear-gradient(135deg,rgba(20,20,24,0.98),rgba(28,28,34,0.98))] p-5 shadow-lg sm:mb-8 sm:p-7 lg:p-8">
-            <h3 className="mb-4 text-lg font-bold text-amber-400 sm:text-xl">
+          <div id="responsabilidade" className="mb-6 rounded-2xl border border-rose-500/12 bg-[linear-gradient(135deg,rgba(12,18,32,0.98),rgba(18,12,24,0.98))] p-5 shadow-lg sm:mb-8 sm:p-7 lg:p-8">
+            <h3 className="mb-4 text-lg font-bold text-rose-400 sm:text-xl">
               Compromisso com o Jogo Responsável
             </h3>
             <p className="mb-4 text-sm leading-relaxed text-white/55 sm:text-base">
@@ -233,15 +233,15 @@ export default async function Home({ searchParams }: PageProps) {
             </p>
             <ul className="space-y-2 text-sm text-white/55 sm:text-base">
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Definição de limites de depósito e de perdas</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Possibilidade de pausas temporárias na conta</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-amber-400">•</span>
+                <span className="mt-0.5 text-rose-400">•</span>
                 <span>Mecanismos de autoexclusão</span>
               </li>
             </ul>
@@ -260,27 +260,27 @@ export default async function Home({ searchParams }: PageProps) {
             </p>
             <ul className="space-y-2 text-sm text-white/50 sm:text-base">
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Licenciamento ativo pelo SRIJ</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Variedade de slots e jogos de mesa disponíveis</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Clareza nas condições das promoções</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Qualidade do suporte ao utilizador</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Experiência otimizada em dispositivos móveis</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-0.5 text-emerald-400">✓</span>
+                <span className="mt-0.5 text-sky-400">✓</span>
                 <span>Opinião e feedback de utilizadores reais</span>
               </li>
             </ul>
@@ -313,7 +313,7 @@ export default async function Home({ searchParams }: PageProps) {
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5">
-              <div className="mb-3 text-sm text-amber-400">★★★★★</div>
+              <div className="mb-3 text-sm text-rose-400">★★★★★</div>
               <h4 className="mb-2 text-sm font-bold text-white">Pedro Almeida</h4>
               <p className="text-xs leading-relaxed text-white/40 sm:text-sm">
                 Encontrei informações objetivas sobre operadores autorizados pelo SRIJ. Os termos dos bónus são explicados de forma simples, o que me ajudou a comparar plataformas sem confusão. Um recurso valioso para quem quer informação fidedigna.
@@ -321,7 +321,7 @@ export default async function Home({ searchParams }: PageProps) {
             </div>
 
             <div className="rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5">
-              <div className="mb-3 text-sm text-amber-400">★★★★★</div>
+              <div className="mb-3 text-sm text-rose-400">★★★★★</div>
               <h4 className="mb-2 text-sm font-bold text-white">Mariana Lopes</h4>
               <p className="text-xs leading-relaxed text-white/40 sm:text-sm">
                 Achei muito úteis as explicações sobre RTP e volatilidade. São conceitos que noutros sites aparecem de forma demasiado técnica, mas aqui estão apresentados de maneira acessível. Agora compreendo melhor como funcionam as slots.
@@ -329,7 +329,7 @@ export default async function Home({ searchParams }: PageProps) {
             </div>
 
             <div className="rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5">
-              <div className="mb-3 text-sm text-amber-400">★★★★★</div>
+              <div className="mb-3 text-sm text-rose-400">★★★★★</div>
               <h4 className="mb-2 text-sm font-bold text-white">Tiago Nunes</h4>
               <p className="text-xs leading-relaxed text-white/40 sm:text-sm">
                 Como principiante, tinha dificuldade em perceber promoções e condições dos bónus. Esta plataforma organiza os dados de forma clara e honesta, sem exageros. Ajudou-me bastante antes de tomar qualquer decisão.
@@ -337,7 +337,7 @@ export default async function Home({ searchParams }: PageProps) {
             </div>
 
             <div className="rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5">
-              <div className="mb-3 text-sm text-amber-400">★★★★★</div>
+              <div className="mb-3 text-sm text-rose-400">★★★★★</div>
               <h4 className="mb-2 text-sm font-bold text-white">Catarina Ribeiro</h4>
               <p className="text-xs leading-relaxed text-white/40 sm:text-sm">
                 Saber que os operadores indicados têm licença válida do SRIJ inspira maior confiança. A secção sobre jogo responsável também é excelente, com informação sobre limites de depósito e opções de autoexclusão.
@@ -345,7 +345,7 @@ export default async function Home({ searchParams }: PageProps) {
             </div>
 
             <div className="rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5">
-              <div className="mb-3 text-sm text-amber-400">★★★★★</div>
+              <div className="mb-3 text-sm text-rose-400">★★★★★</div>
               <h4 className="mb-2 text-sm font-bold text-white">André Mendes</h4>
               <p className="text-xs leading-relaxed text-white/40 sm:text-sm">
                 A plataforma torna a comparação entre casinos online muito mais simples. As tabelas são organizadas e a informação está bem estruturada. Sem promessas exageradas, apenas dados que ajudam a analisar com consciência.
@@ -353,7 +353,7 @@ export default async function Home({ searchParams }: PageProps) {
             </div>
 
             <div className="rounded-2xl border border-white/[0.06] bg-white/[0.025] p-5">
-              <div className="mb-3 text-sm text-amber-400">★★★★★</div>
+              <div className="mb-3 text-sm text-rose-400">★★★★★</div>
               <h4 className="mb-2 text-sm font-bold text-white">Beatriz Correia</h4>
               <p className="text-xs leading-relaxed text-white/40 sm:text-sm">
                 Os conteúdos educativos são um diferencial importante. Aprendi sobre métodos de pagamento, prazos de levantamento e como interpretar corretamente os termos dos bónus. Um portal que realmente acrescenta valor.
