@@ -17,7 +17,7 @@ export const casinos: Casino[] = [
     logo: "/safecasino.png",
     rating: 10,
     votes: 9547,
-    bonus: "100% up to 1000 EUR + 300 FREE SPINS",
+    bonus: "100% até 1000 € + 300 RG + JOGO DE BÓNUS",
     url: "https://safecasino.sedeciassls.live?sub_id_1=zlaeg1h19lmm22&utm_source=safecasino",
     badge: "Melhor Escolha",
     isMobile: true
@@ -47,7 +47,7 @@ export const casinos: Casino[] = [
     logo: "/betlabel.svg",
     rating: 9.8,
     votes: 9547,
-    bonus: "100% up to 300€ + 30 free spins for a first deposit of 10 EUR",
+    bonus: "100% até 300 EUR + 30 FS",
     url: "https://betlabel.sedeciassls.live?sub_id_1=zlaeg1h19lmm22&utm_source=betlabel",
     badge: "Pagamentos Rápidos",
     isMobile: true
